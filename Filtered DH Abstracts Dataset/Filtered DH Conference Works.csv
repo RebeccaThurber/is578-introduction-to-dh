@@ -1,0 +1,1446 @@
+work_id,conference_label,conference_short_title,conference_theme_title,conference_year,conference_organizers,conference_series,conference_hosting_institutions,conference_city,conference_state,conference_country,conference_url,work_title,work_url,work_authors,work_type,full_text,full_text_type,full_text_license,parent_work_id,keywords,languages,topics
+1984,2014 - Lausanne,Lausanne,Digital Cultural Empowerment,2014-01-01T00:00:00Z,ADHO,ADHO,École Polytechnique Fédérale de Lausanne (EPFL);Université de Lausanne,Lausanne,,Switzerland,https://web.archive.org/web/20161227182033/https://dh2014.org/program/,Leaves of Grass: Data Animation and XML Technologies,,Brett Barney;Brian Pytlik-Zillig,"paper, specified ""long paper""","Walt Whitman’s Leaves of Grass is one of the most famous and often-studied works of American literature. In the century since Van Wyck Brooks declared Whitman the originator of “the sense of something organic in American life”—the first to combine high art and rude experience—Whitman’s masterwork has been thoroughly digested into a series of critical truisms that gives even new readers of the poems a sense of familiarity. Whether we have his poems committed to memory or have never actually read one of them, we “all know” that Whitman eschewed traditionally poetic diction, that his is a poetry of inclusiveness, that the first edition of his text in 1855 is more daring, lively, and experimental than later editions, etc. 
+
+Such axioms are comforting in the face of what is on many levels a difficult text (actually, a set of texts) to assimilate. Because Whitman applied the title “Leaves of Grass” to more than ten distinctly different volumes over the course of three and a half decades—not only adding poems but also retitling, cancelling, drastically revising, combining, and re-grouping existing ones—the goal of accurately tracing the book’s evolution has consistently frustrated scholars. Recognizing that “for the reader to understand how Leaves of Grass grew from edition to edition, some sense had to be made of these often bewildering textual permutations,” a group of late-twentieth century scholars labored for over a decade to produce a variorum edition, a tremendous accomplishment that has, unfortunately, done little to alleviate the bewilderment of permutations. 
+
+The hope that digital technologies might offer a way, at last, to lucidly represent the various stages in the evolution of Leaves of Grass was one of the early motivations for the creators of the Whitman Archive in the late 1990s. We have often revisited the question of how to convey visually the information represented in the arcane coding of the 3-volume print variorum and inherent in the separate digitized editions. Nearly two decades later, however, we haven’t made much progress. 
+
+Though they cannot provide the kind of detailed, objective understanding that might be conveyed by the schematic, interactive interfaces that we’ve sometimes (very hazily) imagined—ones that somehow collate whole texts, poems, lines, and phrases—we have begun to experiment with distant reading strategies that provide a different sort of view. So while collation tools do not cope well with the scope of transformation involved in Whitman’s reworking the first edition’s 10,000-word prose preface into the 4,000-word poem “By Blue Ontario’s Shore,” text analysis tools such as Voyant offer a number of potentially enlightening prospects on the two works and their relationship. 
+
+Likewise, such tools can begin to offer ways to assay and quantify some of the critical commonplaces that have grown up around Leaves of Grass: Is Whitman’s diction, in fact, innovative and what makes it so? How do Whitman’s early poems compare to his later poems? What basis might be found for claims that Whitman is the great poet of America, women, the body, male homoeroticism, or democracy?
+
+At the University of Nebraska–Lincoln's Center for Digital Research in the Humanities we have been experimenting with a new way of visualizing phenomena in TEI corpora and have created Indigo, an experimental XSLT-based tool that queries TEI files and generates animated videos of the results. Using XPath and XQuery techniques, this tool makes it possible to ask specific or general questions of a corpus. The data are then output as scalable vector graphic (SVG) files that are converted to raster images and rendered in high definition H.264 video at 30 frames per second. At its core, Indigo is a program for performing scripted stop-motion animation, arranged in one or more scenes. What each scene contains is up to the user: it might include letters, numbers, shapes, colors, gradients, patterns, lines, paths, or imported raster images, each moving or not moving. The only requirement is that a scene must be modeled in XSLT, with SVG structures as the initial output. For the user wishing to visualize aspects of TEI text corpora, the news is good, for that format shares membership with XSLT and SVG in the XML ecosystem. Indigo provides a method for presenting, in fresh and unexpected ways, quantitative data relevant to scholarly questions in a way that is open-ended, making the user a co-creator with Whitman in the “meaning” of his texts. 
+
+Our experiment involves such activities as creating quantitive analyses of some of the linguistic characteristics of Whitman's poetic corpus, comparing them to those of some of his popular contemporaries, and then ""presenting"" the results as a video sequence. Such a procedure is admittedly outside the mainstream of critical methodology in the humanities, but it is entirely in keeping with Whitman’s own theories of the proper relationships among authors, readers, and texts. “The process of reading,” he said, “is not a half-sleep, but, in highest sense, an exercise, a gymnast’s struggle; . . . the reader is to do something for himself, . . . must himself or herself construct indeed the poem, argument, history, metaphysical essay—the text furnishing the hints, the clue, the start or frame-work.”1
+
+As Tanya Clement has recently observed, ""sometimes the view facilitated by digital tools generates the same data human beings . . . could generate by hand, but more quickly,"" and sometimes ""these vantage points are remarkably different . . . and provide us with a new perspective on texts.""2 And as Dana Solomon has written, ""due in large part to its often powerful and aesthetically pleasing visual impact, relatively quick learning curve … and overall 'cool,' the practice of visualizing textual data has been widely adopted by the digital humanities.""3
+
+In representing the literary work as an absorbing performance, one that comprises both ""data"" and ""art,"" the method we are presenting is calculated to provoke responses in both informational and aesthetic registers. It is, in the terms of Jerome McGann and Lisa Samuels, an act of “interpretive deformance,” whereby “we are brought to a critical position in which we can imagine things about the text that we didn’t and perhaps couldn’t otherwise know.”4
+
+References
+1. Whitman, Walt (1892). Democratic Vistas in Complete Prose Works, (Philadelphia: David McKay), p. 257.
+
+2. Clement, T (2013). Text Analysis, Data Mining, and Visualizations in Literary Scholarship in Literary Studies in the Digital Age: An Evolving Anthology (eds., Kenneth M. Price, Ray Siemens). Modern Language Association.
+
+3. Solomon, D. (2013). Building the Infrastructural Layer: Reading Data Visualization in the Digital Humanities. MLA 2013 Conference Presentation. url: danaryansolomon.wordpress.com/2013/01/08/mla-2013-conference-presentation-from-sunday-162013/
+
+4. McGann, Jerome and Lisa Samuels.Deformance and Interpretation url: www2.iath.virginia.edu/jjm2f/old/deform.html",txt,This text is republished here with permission from the original rights holder.,,animation;deformance;leaves of grass;walt whitman,English,"audio, video, multimedia;content analysis;corpora and corpus activities;literary studies;text analysis;visualization"
+2239,2015 - Sydney,Sydney,Global Digital Humanities,2015-01-01T00:00:00Z,ADHO,ADHO,Western Sydney University,Sydney,,Australia,https://web.archive.org/web/20190121165412/http://dh2015.org/,DREaM: Distant Reading Early Modernity,https://github.com/ADHO/dh2015/blob/master/xml/WITTEK_Stephen_DREaM__Distant_Reading_Early_Modernity.xml,Stephen Wittek;Stéfan Sinclair;Matthew Milner,"paper, specified ""short paper""","<?xml version=""1.0"" encoding=""UTF-8""?>
+<TEI xmlns=""http://www.tei-c.org/ns/1.0"">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>DREaM: Distant Reading Early Modernity</title>
+                <author>
+                    <persName>
+                        <surname>Wittek</surname>
+                        <forename>Stephen</forename>
+                    </persName>
+                    <affiliation>McGill University, Canada</affiliation>
+                    <email>stephen.wittek@mcgill.ca</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Sinclair</surname>
+                        <forename>Stéfan</forename>
+                    </persName>
+                    <affiliation>McGill University, Canada</affiliation>
+                    <email>stefan.sinclair@mcgill.ca</email>
+                </author>
+                <author>
+                    <persName>
+                        <surname>Milner</surname>
+                        <forename>Matthew</forename>
+                    </persName>
+                    <affiliation>McGill University, Canada</affiliation>
+                    <email>matthew.milner@mcgill.ca</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014-12-19T13:50:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Paul Arthur, University of Western Sidney</publisher>
+                <address>
+                    <addrLine>Locked Bag 1797</addrLine>
+                    <addrLine>Penrith NSW 2751</addrLine>
+                    <addrLine>Australia</addrLine>
+                    <addrLine>Paul Arthur</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident=""DHCONVALIDATOR"" version=""1.9"">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme=""ConfTool"" n=""category"">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme=""ConfTool"" n=""subcategory"">
+                    <term>Short Paper</term>
+                </keywords>
+                <keywords scheme=""ConfTool"" n=""keywords"">
+                    <term>early modern</term>
+                    <term>eebo</term>
+                    <term>voyant</term>
+                    <term>topic modeling</term>
+                    <term>distant reading</term>
+                </keywords>
+                <keywords scheme=""ConfTool"" n=""topics"">
+                    <term>archives</term>
+                    <term>repositories</term>
+                    <term>sustainability and preservation</term>
+                    <term>corpora and corpus activities</term>
+                    <term>literary studies</term>
+                    <term>content analysis</term>
+                    <term>bibliographic methods / textual studies</term>
+                    <term>interdisciplinary collaboration</term>
+                    <term>digital humanities - pedagogy and curriculum</term>
+                    <term>english studies</term>
+                    <term>renaissance studies</term>
+                    <term>media studies</term>
+                    <term>data mining / text mining</term>
+                    <term>English</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Our proposed paper will provide an overview of the theory and methodology driving the creation of Distant Reading Early Modernity (DREaM), a digital humanities project that has made a massive corpus of early modern texts amenable for use with macro-scale analytical tools. Key focus areas include the technical challenges deriving from non-standardized spelling, the philosophy of our tutorial program, the argument for our approach to the early modern archive, and the potential benefit to early modern scholarship of distant reading techniques. </p>
+            <p>From Microfilm Library, to EEBO, to EEBO-TCP, to DREaM </p>
+            <p>The foundational work for DREaM began in 1934, when Eugene B. Power used parts of two movie and still cameras to create one of the world’s first microfilm bookcameras, a device he used to photograph thousands of texts in British libraries (Anderson and Power, 1990). In 1998 Power’s microfilm library became the basis for Early English Books Online (EEBO), a database that comprises the images for some 125,000 texts from 1475 to 1700, and has profoundly expanded the horizons of early modern research.
+                <hi rend=""superscript"">1</hi> To date, approximately one-third of the documents on EEBO are available as transcribed, full-text editions. Researchers for the EEBO Text Creation Partnership (EEBO-TCP) are currently working to transcribe the remaining 85,000 documents, which are as yet only available as digitized microfilm images.
+                <hi rend=""superscript"">2</hi>
+            </p>
+            <p>Although completion of the transcription work is still at least 10 years in the future, the prospect of a full-text library of all documents from the first 225 years of English print points to the need for some careful re-thinking about the relation between scholarship and archival sources. As it now stands, the EEBO-TCP corpus amounts to 8.02 gigabytes of XML-encoded text and contains nearly 45,000 documents, for a grand total of well over a billion words (1,155,264,343 by our count). Confronted by the sheer expanse of a corpus several magnitudes larger than anything one could hope to read in a lifetime, early modern scholarship must now work to incorporate digital methodologies that enable a bird’s-eye view of large corpora, an approach that Franco Moretti has dubbed ‘distant reading’ (Moretti, 2007). DREaM has begun the work of making such a view possible. </p>
+            <p>Unlike EEBO, DREaM enables batch downloading of custom-defined subsets rather than obliging users to download individual texts on a one-by-one basis. In other words, it functions at the level of ‘sets of texts’ (sometimes called 
+                <hi rend=""italic"">worksets</hi>) rather than ‘individual texts’. Examples of subsets one might potentially generate include ‘all texts by Ben Jonson’, ‘all texts published in 1623’, or ‘all texts printed by John Wolfe’. A user-friendly interface makes subsets available as either plain text or XML-encoded files, and gives users the option to automatically name individual files by date, author, title, or combinations thereof (this file naming flexibility can be useful when interoperating with other tool suites). 
+            </p>
+            <p>The ability to generate custom-defined subsets is important because it allows researchers to explore the early modern canon with distant reading techniques, and to capture otherwise intractable data with visualizations such as graphs, charts, or other forms of graphic representation. On this note, another key feature of DREaM is that it allows users to transfer specially tailored subsets directly to the analytic interfaces of Voyant Tools (voyant-tools.org), a suite of textual visualization tools that collectively constitute the leading platform for open-access digital humanities research.
+                <hi rend=""superscript"">3</hi> In fact, DREaM is actually implemented within Voyant Tools (version 2.0, not yet released, which provides much better support for very large text collections). DREaM thus provides a compelling example of a bridge between massive full-text repositories (that typically provide faceted searching) and more specialized analytic and visualization environments. By enabling simple transference between the EEBO-TCP archive and Voyant, DREaM has significantly expanded the range and sophistication of technologies currently available to researchers who wish to gain a broad sense of printed matter in early modern England. 
+            </p>
+            <p>Notably, however, DREaM does not aim to replace EEBO, or to supplant conventional forms of research. Rather, our goal is to simply add a new item to the scholar’s toolbox, and to increase transferability between distant reading methodologies and more fine-grained forms of analysis. </p>
+            <p>
+                <hi rend=""bold"">Negotiating the Complexities of Non-Standardized Spelling</hi>
+            </p>
+            <p>Standardized spelling had yet to emerge in early modernity: writers had the freedom to spell however they pleased. To take a famous example, the name ‘Shakespeare’ has 80 different recorded spellings, including ‘Shaxpere’ and ‘Shaxberd’. As one might imagine, variance on this scale presents a serious challenge for large-scale textual analysis. How is it possible to track the incidence of a specific word, or group of words, if any given word could have an unknown multiplicity of iterations? </p>
+            <p>To address this problem, we enlisted the assistance of VARD 2, a tool that helps to improve the accuracy of textual analysis by finding candidate modern form replacements for spelling variants in historical texts.
+                <hi rend=""superscript"">4</hi> As with conventional spellcheckers, a user can choose to process texts manually (selecting a candidate replacement offered by the system), automatically (allowing the system to use the best candidate replacement found), or semi-automatically (training the tool on a sample of the corpora). 
+            </p>
+            <p>After some preliminary training, we ran the TCP-EEBO corpus through VARD using the default settings (auto normalization at a threshold of 50%). Rather than using the ‘batch’ mode—which proved unreliable for such a big job—we wrote a script that normalized the texts on a one-by-one basis from the command-line. This process took about three days on a commodity machine. VARD normalized 80,676 terms for a grand total of 44,909,676 changes overall. </p>
+            <p>A careful check through the list resulted in 373 term normalizations that we found problematic in one way or another. The problematic normalizations amounted to 462,975 changes overall, or only 1.03% of the total number of changes. These results were satisfactory: our goal was not to make the corpus ‘perfectly normalized’ (an impossibility, not least because perfection is debatable in this context), but, more pragmatically, to make it generally normalized, which is the best one can reasonably expect from an automatic process. On this point, it is important to note that VARD encodes a record of all changes within the output XML file, so scholars will be able to see if the program has made an erroneous normalization. </p>
+            <p>Some of the problematic VARD normalizations seem to have derived from a dictionary error. For example, ‘chan’ became ‘champion’ and ‘ged’ became ‘general’. In other instances, the problematic normalizations were ambiguous or borderline cases that we preferred to simply leave unchanged. Examples include ‘piece’ for ‘peece’, and ‘land’ for ‘iland’. There were also cases where the replacement term was not quite correct: ‘strawberie’ became ‘strawy’ rather than ‘strawberry’, and ‘hoouering’ became ‘hoovering’ rather than ‘hovering’. We fixed as many of these kinks as we could by making adjustments to the VARD training file and running the entire corpus through the normalization process a second time. </p>
+            <p>Of course, it is not difficult to imagine scenarios wherein a researcher may prefer to work with original spellings rather than normalized texts. With such projects in mind, we have kept both normalized and non-normalized versions of the EEBO-TCP corpus. </p>
+            <p>
+                <hi rend=""bold"">The DREaM Tutorial Program</hi>
+            </p>
+            <p>As noted above, one of the central objectives of DREaM is to create an interface that will maximize user-friendliness, allowing scholars with a minimal level of technical expertise to quickly and efficiently create subsets tailored for whatever specific research question they wish to pursue. We are building DREaM for our own research, but we also have a much broader pedagogical perspective in mind. To meet this objective, we have launched a pilot tutorial program, currently under way, that will teach scholars how to use DREaM, but will also point to ways in which DREaM could more effectively serve the demands of scholarly investigation. </p>
+            <p>In a series of tasks that build toward the production of a short case-study report, pilot users must articulate a detailed research question and provide a description of their argument. In addition to establishing a valuable feedback loop for the project, this assignment aims to nudge new users toward a more comprehensive, more practical understanding of how macro-scale textual analysis can complement scholarly practice. The key conceptual challenge, as we see it, hinges on new users’ ability to understand, and learn to negotiate, the gap between distant reading and more conventional means of engaging archival sources. </p>
+            <p>Our pool of pilot users derives from the membership of our parent project, Early Modern Conversions, a five-year interdisciplinary research initiative that has brought together a team of more than 100 scholars, partners, and graduate student associates from universities in Canada, the United States, England, New Zealand, and Australia.
+                <hi rend=""superscript"">5</hi> Early Modern Conversions provides a propitious testing ground for DREaM because it is at the vanguard of early modern research, and because it entails a rich diversity of disciplinary approaches. Our presentation for DH2015 will report on the results of the tutorial program and on the progress of the project overall. 
+            </p>
+            <p>Screenshots </p>
+            <figure>
+                <graphic n=""1001"" width=""16.002cm"" height=""12.230805555555555cm"" url=""Pictures/image1.png"" rend=""block""/>
+            </figure>
+            <p>Figure 1. The DREaM interface. Search fields in the middle of the screen enable users to define a subset of EEBO-TCP texts by keyword, year, author, and publisher. Below the search field, an ‘Export’ button opens a dialogue box that offers the option of sending the subset directly to Voyant-tools.org, or downloading it as a ZIP archive. Users may also choose to download subsets as either plain text or XML-encoded files. A drag-and-drop mechanism (bottom) enables automatic naming of files within a subset by date, author, title, or combinations thereof. </p>
+            <p>
+                <pb/>
+            </p>
+            <figure>
+                <graphic n=""1002"" width=""16.002cm"" height=""8.651875cm"" url=""Pictures/image2.png"" rend=""block""/>
+            </figure>
+            <p>Figure 2. A sample subset transferred to Voyant Tools. Beginning in the top left corner, one sees a word cloud representing the frequency of keywords in terms of font size. At a glance, it shows that the highest frequency words in the subset are ‘good’ and ‘come’. Below the word cloud, there is a summary that lists statistics for basic categories such as word count, vocabulary density, word frequency, etc. In addition, the summary lists words that have a notably high frequency for each year: ‘Rome’ and ‘death’ appeared with particular frequency in 1594, while ‘virtue’ and ‘envy’ stood out in 1612. Moving to the bottom left corner, one sees an ordered list of frequencies for each word in the corpus accompanied by a thumbnail graph that tracks the frequency of words over the 40-year delimitation. At a glance, the tool shows a significant spike for the word ‘knight’ in 1624. In the middle of the screen, a ‘Corpus Reader’ tool enables users to drill down into the corpus to examine the context for particular terms. </p>
+            <p>Notes</p>
+            <p>1. See http://eebo.chadwyck.com.</p>
+            <p>2. See http://eebo.odl.ox.ac.uk/e/eebo/.</p>
+            <p>3. See http://voyant-tools.org.</p>
+            <p>4. See http://ucrel.lancs.ac.uk/vard/about/.</p>
+            <p>5. See http://earlymodernconversions.com.</p>
+        </body>
+        <back>
+            <div type=""bibliogr"">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <hi rend=""bold"">Anderson, R. and Power, E. B.</hi> (1990). The Autobiography of Eugene B. Power, Founder of University Microfilms. UMI, Ann Arbor, MI.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Moretti, F.</hi> (2007). Graphs, Maps, Trees: Abstract Models for Literary History. Verso, London.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>",xml,Creative Commons Attribution 4.0 International,,distant reading;early modern;eebo;topic modeling;voyant,English,"archives, repositories, sustainability and preservation;bibliographic methods / textual studies;content analysis;corpora and corpus activities;data mining / text mining;digital humanities - pedagogy and curriculum;english;english studies;interdisciplinary collaboration;literary studies;media studies;renaissance studies"
+2339,2015 - Sydney,Sydney,Global Digital Humanities,2015-01-01T00:00:00Z,ADHO,ADHO,Western Sydney University,Sydney,,Australia,https://web.archive.org/web/20190121165412/http://dh2015.org/,"Queen Luise of Prussia, a Digital Hagiography",https://github.com/ADHO/dh2015/blob/master/xml/ASKEY_Jennifer_D_Queen_Luise_of_Prussia__a_Digital_Hagi.xml,Jennifer D Askey,"paper, specified ""short paper""","<?xml version=""1.0"" encoding=""UTF-8""?>
+<TEI xmlns=""http://www.tei-c.org/ns/1.0"">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Queen Luise of Prussia, a Digital Hagiography</title>
+                <author>
+                    <persName>
+                        <surname>Askey</surname>
+                        <forename>Jennifer D</forename>
+                    </persName>
+                    <affiliation>McMaster University, Canada</affiliation>
+                    <email>askeyj@mcmaster.ca</email>
+                </author>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    <date>2014-12-19T13:50:00Z</date>
+                </edition>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Paul Arthur, University of Western Sidney</publisher>
+                <address>
+                    <addrLine>Locked Bag 1797</addrLine>
+                    <addrLine>Penrith NSW 2751</addrLine>
+                    <addrLine>Australia</addrLine>
+                    <addrLine>Paul Arthur</addrLine>
+                </address>
+            </publicationStmt>
+            <sourceDesc>
+                <p>Converted from a Word document </p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc>
+            <appInfo>
+                <application ident=""DHCONVALIDATOR"" version=""1.9"">
+                    <label>DHConvalidator</label>
+                </application>
+            </appInfo>
+        </encodingDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme=""ConfTool"" n=""category"">
+                    <term>Paper</term>
+                </keywords>
+                <keywords scheme=""ConfTool"" n=""subcategory"">
+                    <term>Short Paper</term>
+                </keywords>
+                <keywords scheme=""ConfTool"" n=""keywords"">
+                    <term>German history</term>
+                    <term>digitization</term>
+                    <term>nineteenth century</term>
+                    <term>fraktur</term>
+                </keywords>
+                <keywords scheme=""ConfTool"" n=""topics"">
+                    <term>literary studies</term>
+                    <term>digitisation</term>
+                    <term>resource creation</term>
+                    <term>and discovery</term>
+                    <term>text analysis</term>
+                    <term>authorship attribution / authority</term>
+                    <term>german studies</term>
+                    <term>English</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>Popular biographies of Queen Luise of Prussia (1776–1810, r. 1797–1810) written in the second half of the nineteenth century uniformly adhere to what Wulf Wülfing has called a ‘stations of the cross’ structure (Wülfing, 1984). Independent of whether the biography focuses on her domestic life, her personal character and temperament, or her influence at court, it relates and pays homage to canonical moments in Luise’s life story: her childhood encounter with Goethe’s mother, her presence at the coronation of the last Holy Roman Emperor, her meeting with her future husband, and several instances of informal, uncourtly conduct upon becoming princess. Biographies written for a variety of intended audiences (the German people, young Germans, young ladies, etc.) all adhere to the same narrative thread. While biographies on the same subject might be expected to follow a similar time line, popular treatments of Luise’s life and times tend to treat the same set of life anecdotes using the same language (Askey, 2013). While Luise’s function as a secular Prussian saint is one reason for the similarity of these biographies, another is their grounding in the same foundational texts. After Luise’s death in 1810, two biographies written by members of the Prussian court reached the public. King Friedrich Wilhelm III’s court pastor, Ruleman Friedrich Eylert, published 
+                <hi rend=""italic"">Charakter-Züge und historische Fragmente aus dem Leben des Königs von Preussen Friedrich Wilhelm III </hi>(Characteristics and Historical Fragments form the Life of King Friedrich Wilhelm III of Prussia), a multivolume court history that contained over one volume of information on Queen Luise. And Luise’s lady in waiting, Countess Sophie Marie von Voss, published 
+                <hi rend=""italic"">Neunundsechzig Jahre am preussischen Hofe; aus den Erinnerungen der Oberhofmeisterin Sophie Marie Gräfin von Voss </hi>(Sixty-Nine Years at the Prussian Court: The Memories of the Senior Lady in Waiting Countess Sophie Marie von Voss)
+                <hi rend=""italic"">.</hi> This poster will introduce a digitization and textual analysis project that brings court and popular biographies into conversation with one another. 
+            </p>
+            <p> While the court biographies are available digitally, most of the popular biographies, especially those for children, are not. Libraries in the nineteenth century did not generally collect children’s literature, and so my personal collection of around a dozen Luise biographies for young readers will be digitized. Our team at the Sherman Centre for Digital Scholarship will OCR the biographies, experimenting with ABBYY, OmniPage, and Tesseract to achieve optimal results with the notoriously difficult German 
+                <hi rend=""italic"">Fraktur</hi> typescript. Once the corpus of official court and popular biographies has been created, we will perform standard text mining on the body of texts for young people to confirm or refute personal close readings. Our text mining queries will focus on the frequency of selected key terms relating to Luise’s life story, as well as the frequency of certain gendered textual markers (such as the word 
+                <hi rend=""italic"">Gemüt</hi>—temperament, or words associated with clothing or fashion). The information gleaned from text mining will contribute to a scholarly discussion not only on the queen but on exemplarity, female childhood, and the gender discourse of the public sphere in the long nineteenth century. 
+            </p>
+            <p> The final step involves running subsets of the popular biographies (for the general public, for young people) and the court biographies through a comparison engine such as Juxta to determine adherence or deviation from a supposed ur-text. In the context of my previous work on Queen Luise and her literary function as exemplar for young German women, my hopes for the comparison step of the process are quite high. I use Voyant and Juxta to focus on specific language tokens that provide insight into gender norms and expectations, references to Luise’s physicality, and the development of nationalist discourse (apparent where the queen’s use of French at the court is set against her domestic use of German). </p>
+            <p> The poster will illustrate the resource creation process (digitization and OCR of Fraktur texts, accessibility of that corpus for other scholars) as well as the first stages of textual analysis using the corpus. </p>
+        </body>
+        <back>
+            <div type=""bibliogr"">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <hi rend=""bold"">Askey, J.</hi> (2013). Good Girls, Good Germans: Girls’ Education and Emotional Nationalism in Wilhelminan Germany. Camden House, Rochester, NY. 
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Eylert, R.</hi> (1844). Charakter-Züge und historische Fragmente aus dem Leben des Königs von Preußen Friedrich Wilhelm III: Gesammelt nach eigenen Beobachtungen und selbstgemachten Erfarhungen; wohlfeile Ausgabe für das Volk. Heinrichshofenschen Buchhandlung, Magdeburg.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Voß, S.</hi> (1876). Neunundsechsig Jahre am Preußischem Hofe: Aus den Erinnerungen der Oberhofmeisterin Sophie Marie Gräfin von Voß. Dunker und Humbolt, Leipzig.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Wülfing, W.</hi> (1984). ‘Die Heilige Luise von Preußen: Zur Mythisierung einer figure der Geschichte in der deutschen Literatur des 19. Jahrhunderts’: Bewegung und Stillstand in Metaphern und Mythen: Fallstudien zum Verhältnis von elementarem Wissen und Literatur im 19. Jahrhundert. Stuttgart: Klett-Cotta. 
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+</TEI>",xml,Creative Commons Attribution 4.0 International,,digitization;fraktur;german history;nineteenth century,English,"authorship attribution / authority;digitisation, resource creation, and discovery;english;german studies;literary studies;text analysis"
+2481,2016 - Kraków,Kraków,Digital Identities: the Past and the Future,2016-01-01T00:00:00Z,ADHO,ADHO,Jagiellonian University;Pedagogical University of Krakow,Kraków,,Poland,https://dh2016.adho.org/,Defining the Core Entities of an Environment for Textual Processing in Literary Computing,,Angelo Mario Del Grosso;Davide Albanesi;Emiliano Giovannetti;Simone Marchi,poster / demo / art installation,"<text xmlns=""http://www.tei-c.org/ns/1.0"">
+        <body>
+            <div type=""div1"" rend=""DH-Heading1"">
+                <head>Introduction</head>
+                <p>The development of applications in the field of Digital Humanities (DH) does not adequately take into account domain modelling, software design principles and software engineering methodologies (Bozzi, 2013; D'Iorio, 2015; McCarty, 2008; Terras and Crane, 2010). In fact, many systems developed in the context of DH-related projects have not been conceived to be modular, extensible, and scalable: they only tend to solve specific problems such as data-driven and project-oriented tools (Boschetti and Del Grosso, 2015). In addition, most projects focus on the requirements of humanists (as end users), but leave out the needs of software developers.</p>
+                <p>This research was motivated by a number of issues emerged from the projects we worked on 
+                    <hi rend=""background-color(#ffff00)""> </hi>(Abrate et al., 2014a; Albanesi et al., 2015; Bellandi et al., 2014; Bozzi, 2015; Del Grosso, 2013; Ruimy et al., 2012) and it fits into an ongoing discussion about textual modelling and research infrastructures (Moulin et al., 2011; Pierazzo, 2015; Schmidt, 2014). In particular, this work aims at providing methodological guidelines for the definition of the core entities of a digital scholarly environment. We chose to adopt an object-oriented approach since it can bring benefits in the definition of efficient and effective digital tools (Boschetti et al., 2014; Del Grosso and Nahli, 2014). To give an analogy, the environment we propose can help developers and scholars as CMS (e.g. Wordpress) can help Web designers and publishers.
+                </p>
+                <p>The development of the environment follows three criteria: i) adopting an agile process (Ashmore and Runyan, 2014) to define the nature and behavior of the environment through both functional (e.g. user stories) and non-functional requirements (e.g. data model, system architecture) (Cohn, 2004; Collins-Cope et al., 2005); ii) providing well-defined Application Programming Interfaces (APIs) among components (Grill et al., 2012; Tulach, 2008); iii) applying analysis, architectural and design patterns for the sake of abstraction, generalization and flexibility (Ackerman and Gonzalez, 2011; Buschmann et al., 2007; Gamma et al., 1995).</p>
+                <p>Following the agile methodology, we are developing a modular environment by starting from the design and implementation of a 
+                    <hi rend=""bold"">microkernel</hi> (Buschmann et al., 1996) as the manager of the different components. In addition, the microkernel provides all the operations needed to manipulate the domain basic entities which are described in the section “Domain entities and design patterns”.
+                </p>
+                <div type=""div2"" rend=""DH-Heading2"">
+                    <head>Related works</head>
+                    <p>Digital humanists have access to several tools for literary studies. TextGrid, for example, provides integrated tools for analyzing texts and gives computer support for digital editing purposes (Hedges et al., 2013). The NINES project offers an environment to support scholars in the creation of long-term digital research materials. It includes three main tools: Collex (Nowviskie, 2007), Juxta, and Ivanhoe. Annotation Studio is a collaborative system to annotate texts and add links to multimedia objects (Paradis et al., 2013). The CULTURA project aims at developing a “corpus agnostic research environment” providing customizable services for a wide range of users (Steiner et al., 2014). The development of an online workspace which helps scholars in the production of critical editions is the main objective of the Workspace for Collaborative Editing framework (Houghton et al., 2014). It uses existing standards and open-source solutions to create an architecture of reusable components. Other platforms worth mentioning are TUSTEP/TXSTEP (Ott, 2000; Ott and Ott, 2014), WebLicht (Hinrichs et al., 2010), Perseids (Almas and Beaulieu, 2013), Muruca/Pundit (Grassi et al., 2013), Textual Communities (Bordalejo and Robinson, 2015), SAWS (Jordanous et al., 2012), Voyant Tools (Sinclair and Rockwell, 2012), Transcribe Bentham (Causer and Terras, 2014) and Alcide (Moretti et al., 2014). However, the aforementioned initiatives allow digital scholars to meet specific needs, but none of them seems to provide, simultaneously, all the following characteristics: i) reusability and extensibility, ii) ease of use and configuration, iii) continuous availability of the services and development over time, iv) a well-grounded software data model.</p>
+                </div>
+            </div>
+            <div type=""div1"" rend=""DH-Heading1"">
+                <head>Domain entities and design patterns</head>
+                <p>One of the main challenges of the DH community is to provide suitable software models and tools (Ciotti, 2014). To model the literary domain and the relative user requirements, we chose to follow the engineering principles of 
+                    <hi rend=""bold"">object-oriented analysis and design</hi> (Ackerman and Gonzalez, 2011). The digital representation of a textual resource is a challenge as it involves several theoretical and epistemological issues in semiotics, paleography, philology, linguistics, engineering, and computer science (McCarty, 2005; Meister, 2012; Moretti, 2013; Robinson, 2013; Sahle, 2013).
+                </p>
+                <p>In this work, we define each textual element by means of four properties: i) the 
+                    <hi rend=""bold"">version</hi> allows to select a specific textual element among those available in its history of changes; ii) the 
+                    <hi rend=""bold"">granularity</hi> represents a level of a hierarchical structure (e.g. a page composed of lines); iii) the 
+                    <hi rend=""bold"">position</hi> provides the location of a textual element within the hierarchical representation (e.g. the second page of a book); iv) the 
+                    <hi rend=""bold"">layer</hi> indicates the set of homogeneous information the textual element belongs to (e.g. morphological layer). As pointed outby (Buzzetti, 2002; McGann, 2004; Pierazzo, 2015), the information conveyed by a textual resource is logically organized through multiple layers (also called 
+                    <hi rend=""italic"">dimensions</hi>) of information.
+                </p>
+                <p>
+                    <figure>
+                        <graphic url=""24/100002010000070400000824354E1F7F0D4DC755.png""/>
+                        <head>Fig. 1: Class diagram of the domain entities</head>
+                    </figure>On these four properties we have designed and implemented a set of core entities as the fundamental data types shared among all the components of the environment (Fig. 1)
+                    <note xml:id=""ftn1"" place=""foot"" n=""1""> The ongoing implementation of the environment is available at: https://github.com/literarycomputinglab</note>. The 
+                    <hi rend=""bold"">Source</hi> class is in charge of managing the low-level data: it is composed of a 
+                    <hi rend=""bold"">Payload</hi> representing the information conveyed by the textual resource and a
+                    <hi rend=""bold"">SourceType</hi> which indicates the nature of the Source (e.g. text, image, audio, etc.). Payload objects (as used in networking) have the only purpose of encapsulating the information. The 
+                    <hi rend=""bold"">Locus</hi> and the 
+                    <hi rend=""bold"">P</hi>
+                    <hi rend=""bold"">lace</hi>
+                    <hi rend=""bold"">OfInterest</hi> (POI) classes identify, through a 
+                    <hi rend=""italic"">composition pattern</hi>, specific data fragments of the source content, and they are used to establish the boundaries of an 
+                    <hi rend=""bold"">Annotation</hi>. A chunk of text, for example, can be addressed to by a locus having a POI (of type Sequence of Interest) representing its start and end coordinates. Similarly, a region of an image can be identified by a locus having a POI (of type Region of Interest) composed of a sequence of coordinates. The Locus and POI provide a stand-off text annotation technique able to tackle, for example, the overlapping hierarchies problem, which cannot be handled easily with inline markup techniques (Schmidt, 2010). As a matter of fact, it is possible, simultaneously, to manipulate a resource on the basis of its documental and textual structure (Renear et al., 1996; Robinson, 2013) (see the example in the following section). However, since stand-off models are affected by the issue of the indexing updating, a dedicated component must be in charge of automatically maintaining the coherence of the annotations each time the underlying text is edited.
+                </p>
+                <p>An Annotation represents an information associated to a locus and is defined by an 
+                    <hi rend=""bold"">AnnotationType</hi> (e.g. a token, a lemma, a named entity, etc.). Since the hierarchical structure of the source may evolve over time, the changes to the relative tree must be managed. For example, a tree structure having tokens as leaves could need to be updated with a finer-grained layer of characters (e.g. to assign annotations to specific letters). In this case, the tokens should become intermediate nodes and the characters would become the leaf nodes. Typically, this kind of editing is unpredictable and it often implies heavy adaptations if the software is not flexible enough to manage changes in the underlying text representation schema. Consequently, we decided to exploit the flexibility of the Object Oriented model by adopting the Role Design Pattern (Fowler, 1997) to switch between leaf and intermediate nodes dynamically. This pattern has been implemented by the 
+                    <hi rend=""bold"">AnnotationRole</hi>, 
+                    <hi rend=""bold"">AnnotationRoleElement</hi> and 
+                    <hi rend=""bold"">AnnotationRoleStructure</hi> classes. Moreover, an annotation is a source in itself (see the inheritance relationship between the Annotation and the Source classes in Fig. 1) and, thus, it can be annotated recursively.
+                </p>
+            </div>
+            <div type=""div1"" rend=""DH-Heading1"">
+                <head>An Example</head>
+                <p>We here introduce an example showing a representation of a snippet of text with annotations. The chosen text is an excerpt of a letter, written in Latin, belonging to the epistolary corpus of the Clavius on the Web project
+                    <note xml:id=""ftn2"" place=""foot"" n=""2""> Clavius on the Web is a project funded by Registro.it and partecipated by the Institute of Informatics and Telematics (IIT-CNR), the Institute of Computational Linguistics “A. Zampolli” (ILC-CNR), and the Historical Archives of the Pontifical Gregorian University (APUG). Website: http://claviusontheweb.it/</note> (Abrate et al., 2014b). Fig. 2 shows a typical way of encoding sentences and lines with a markup language as TEI (Burnard, 2014): the resulting XML hierarchical structure has been broken by the addition of the line anchors (<lb />) mixing up the textual and documental structure of the text. Indeed, to preserve the integrity of the word “Dinostrati” (spanning across lines 4 and 5), it is necessary to encapsulate it with the element <w />.
+                </p>
+                <p>
+                    <figure>
+                        <graphic url=""24/10000201000006EC00000398E68D91980964673A.png""/>
+                        <head>Fig. 2: A standard way of encoding a text with TEI-XML</head>
+                    </figure>
+                    <figure>
+                        <graphic url=""24/1000020100000386000001F5970322C0327A03CA.png""/>
+                        <head>Fig. 3: Multi-layered stand-off annotation of text</head>
+                    </figure>The model we propose solves this problem with the stand-off annotations: as shown in Fig. 3 the document (made of lines) and the textual structure (made of sentences and words) are logically separated. Lines, sentences and words do not overlap and they are structured in separate hierarchies.
+                </p>
+            </div>
+            <div type=""div1"" rend=""DH-Heading"">
+                <head>Next Steps</head>
+                <p>We plan, in future works, to release a first version of a web environment, called 
+                    <hi rend=""italic"">Omega</hi>, built around the core entities that we here described. The environment will allow to load, index, annotate, and query a textual collection. Furthermore, we’ll carry on the development of modules for text analysis and textual scholarship with the related APIs.
+                </p>
+            </div>
+        </body>
+        <back>
+            <div type=""bibliogr"">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <hi rend=""bold"">Abrate, M., </hi>
+                        <hi rend=""bold"">Del </hi>
+                        <hi rend=""bold"">Grosso, A. M., Giovannetti, E., </hi>
+                        <hi rend=""bold"">Lo </hi>
+                        <hi rend=""bold"">Duca, A., Luzzi, D., Mancini, L., Marchetti, A., Pedretti, I. and Piccini, S.</hi> (2014a). Sharing Cultural Heritage: the Clavius on the Web Project. In Calzolari, N., Choukri, K., Declerck, T., Loftsson, H., Maegaard, B., Mariani, J., Moreno, A., Odijk, J. and Piperidis, S. (eds), 
+                        <hi rend=""italic"">Proceedings of the 9th International Conference on Language Resources and Evaluation (LREC), Reykjavik</hi>. European Language Resources Association (ELRA), pp. 627–34.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Abrate, M., </hi>
+                        <hi rend=""bold"">Del </hi>
+                        <hi rend=""bold"">Grosso,</hi>
+                        <hi rend=""bold""> </hi>
+                        <hi rend=""bold"">A. M., Giovannetti, E., </hi>
+                        <hi rend=""bold"">Lo </hi>
+                        <hi rend=""bold"">Duca, A., Marchetti, A., Mancini, L., Pedretti, I. and Piccini, S.</hi> (2014b). Il Progetto Clavius on the Web: tecnologie linguistico-semantiche al servizio del patrimonio documentale e degli archivi storici. In Rossi, F. and Tomasi, F. (eds), 
+                        <hi rend=""italic"">Book of Abstracts of 3</hi>
+                        <hi rend=""sup italic"">o</hi>
+                        <hi rend=""italic""> AIUCD Conference, Bologna</hi>.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Ackerman, L. and Gonzalez, C.</hi> (2011). 
+                        <hi rend=""italic"">Patterns-Based Engineering: Successfully Delivering Solutions Via Patterns</hi>. Addison-Wesley.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Albanesi, D., Bellandi, A., Benotto, G., </hi>
+                        <hi rend=""bold"">Di </hi>
+                        <hi rend=""bold"">Segni, G. and Giovannetti, E.</hi> (2015). When Translation Requires Interpretation: Collaborative Computer–Assisted Translation of Ancient Texts. 
+                        <hi rend=""italic"">LaTeCH 2015</hi>: 84–88.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Almas, B. and Beaulieu, M.-C.</hi> (2013). Developing a New Integrated Editing Platform for Source Documents in Classics. 
+                        <hi rend=""italic"">Literary and Linguistic Computing</hi>, 
+                        <hi rend=""bold"">28</hi>(4): 493–503 doi:10.1093/llc/fqt046.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Ashmore, S. and Runyan, K.</hi> (2014). 
+                        <hi rend=""italic"">Introduction to Agile Methods</hi>. Upper Saddle River, NJ: Addison-Wesley Professional, Pearson Education.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Bellandi, A., Albanesi, D., Bellusci, A., Bozzi, A. and Giovannetti, E.</hi> (2014). The Talmud System: a Collaborative web Application for the Translation of the Babylonian Talmud Into Italian. 
+                        <hi rend=""italic"">The First Italian Conference on Computational Linguistics CLiC-It 2014</hi>, pp. 53–57.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Bordalejo, B. and Robinson, P.</hi> (2015). A new system for collaborative online creation of Scholarly Editions in digital form. 
+                        <hi rend=""italic"">1st Dixit Convension on Technology, Software, Standards for the Digital Scholarly Edition Workshop</hi>. The Hague.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Boschetti, F. and </hi>
+                        <hi rend=""bold"">Del </hi>
+                        <hi rend=""bold"">Grosso, A. M.</hi> (2015). TeiCoPhiLib: A Library of Components for the Domain of Collaborative Philology. 
+                        <hi rend=""italic"">Journal of the Text Encoding Initiative</hi>(8). doi:10.4000/jtei.1285. http://jtei.revues.org/1285 (accessed 3 March 2016).
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Boschetti, F., </hi>
+                        <hi rend=""bold"">Del </hi>
+                        <hi rend=""bold"">Grosso, A. M., Khan, A. F., Lamé, M. and Nahli, O.</hi> (2014). A top-down approach to the design of components for the philological domain. 
+                        <hi rend=""italic"">Book of Abstract of Digital Humanities Conference (DH), Lausanne, Switzerland</hi>. Alliance of Digital Humanities Organisations, pp. 109–11.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Bozzi, A.</hi> (2013). G2A: A Web application to study, annotate and scholarly edit ancient texts and their aligned translations. (Ed.) ERC Ideas 249431 
+                        <hi rend=""italic"">Studia Graeco-Arabica</hi>, 
+                        <hi rend=""bold"">3</hi>: 159–71.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Bozzi, A.</hi> (2015). Greek into Arabic, a research Infrascructure based on computational modules to annotate and query historical and philosophical digital texts. Part I: Methodological aspects. In Bozzi, A. (ed), 
+                        <hi rend=""italic"">Digital Texts, Translations, Lexicons in a Multi-Modular Web Application: Methods and Samples</hi>. Firenze: Leo S. Olschki editore, pp. 27–42.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Burnard, L.</hi> (2014). TEI P5: Guidelines for Electronic Text Encoding and Interchange. Version 2.9.1. http://www.tei-c.org/Guidelines/P5/index.xml (accessed 3 March 2016).
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Buschmann, F., Henney, K. and Schmidt, D. C.</hi> (2007). 
+                        <hi rend=""italic"">Pattern-Oriented Software Architecture, On Patterns and Pattern Languages</hi>. (Pattern-Oriented Software Architecture). Hoboken: John Wiley & Sons.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Buschmann, F., Meunier, R., Rohnert, H., Sommerlad, P. and Stal, M.</hi> (1996). Pattern-oriented Software Architecture - A System of Patterns. J. Wiley and Sons Ltd., pp. 171–92.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Buzzetti, D.</hi> (2002). Digital Representation and the Text Model. 
+                        <hi rend=""italic"">New Literary History</hi>, 
+                        <hi rend=""bold"">33</hi>(1): 61–88.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Causer, T. and Terras, M.</hi> (2014). “Many hands make light work. Many hands together make merry work”: Transcribe Bentham and crowdsourcing manuscript collections.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Ciotti, F.</hi> (2014). Digital Literary and Cultural Studies: State of the Art and Perspectives. 
+                        <hi rend=""italic"">Between</hi>, 
+                        <hi rend=""bold"">4</hi>(8). doi:10.13125/2039-6597/1392. http://dx.doi.org/10.13125/2039-6597/1392 (accessed 3 March 2016).
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Cohn, M.</hi> (2004). 
+                        <hi rend=""italic"">User Stories Applied: For Agile Software Development</hi>. Redwood City, CA, USA: Addison Wesley Longman Publishing Co., Inc.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Collins-Cope, M., Rosenberg, D. and Stephens, M.</hi> (2005). 
+                        <hi rend=""italic"">Agile Development with ICONIX Process: People, Process, and Pragmatism</hi>. Berkely, CA, USA: Apress.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Fowler, M.</hi> (1997). Dealing with roles. 
+                        <hi rend=""italic"">Proceedings of the International Conference on Pattern Languages of Programs</hi>, vol. 97, pp. 13–37.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Gamma, E., Helm, R., Johnson, R. and Vlissides, J.</hi> (1995). 
+                        <hi rend=""italic"">Design Patterns: Elements of Reusable Object-Oriented Software</hi>. Boston, MA, USA: Addison-Wesley Longman Publishing Co., Inc.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Grassi, M., Morbidoni, C., Nucci, M., Fonda, S. and Piazza, F.</hi> (2013). Pundit: augmenting web contents with semantics. 
+                        <hi rend=""italic"">Literary and Linguistic Computing</hi>, 
+                        <hi rend=""bold"">28</hi>(4): 640–59.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Grill, T., Polacek, O. and Tscheligi, M.</hi> (October 29-312012). Methods Towards API Usability: A Structural Analysis of Usability Problem Categories. 
+                        <hi rend=""italic"">Proceedings of the 4th International Conference on Human-Centered Software Engineering, Toulouse, France</hi>. Berlin, Heidelberg: Springer-Verlag, pp. 164–80. doi:10.1007/978-3-642-34347-6_10.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Del </hi>
+                        <hi rend=""bold"">Grosso, A. M.</hi> (2013). Indexing techniques and variant readings management. (Ed.) D'Ancona, C. 
+                        <hi rend=""italic"">Studia Graeco-Arabica</hi>, 
+                        <hi rend=""bold"">3</hi>: 209–30.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Del </hi>
+                        <hi rend=""bold"">Grosso, A. M. and Nahli, O.</hi> (2014). Towards a flexible open-source software library for multi-layered scholarly textual studies: An Arabic case study dealing with semi-automatic language processing. 
+                        <hi rend=""italic"">Proceedings of 3rd IEEE International Colloquium, Information Science and Technology (CIST), Tetouan, Marocco</hi>. Washington, DC, USA: IEEE, pp. 285–90. doi:10.1109/CIST.2014.7016633.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Hedges, M., Neuroth, H., Smith, K. M., Blanke, T., Romary, L., Küster, M. and Illingworth, M.</hi> (2013). TextGrid, TEXTvre, and DARIAH: Sustainability of Infrastructures for Textual Scholarship. 
+                        <hi rend=""italic"">Journal of the Text Encoding Initiative</hi>(5). doi:10.4000/jtei.774 (accessed 3 March 2016).
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Hinrichs, E., Hinrichs, M. and Zastrow, T.</hi> (2010). WebLicht: Web-based LRT services for German. 
+                        <hi rend=""italic"">Proceedings of the ACL 2010 System Demonstrations</hi>. Association for Computational Linguistics, pp. 25–29.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Houghton, H., Sievers, M. and Smith, Catherine</hi> (2014). The Workspace for Collaborative Editing. 
+                        <hi rend=""italic"">Digital Humanities 2014</hi>. Laussanne: Alliance of Digital Humanities Organisations, pp. 204–05.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">D'</hi>
+                        <hi rend=""bold"">Iorio, P. </hi> (2015). On the scholarly use of the Internet, a conceptual model. In Bozzi, A. (ed), 
+                        <hi rend=""italic"">Digital Texts, Translations, Lexicons in a Multi-Modular Web Application: Methods and Samples</hi>. Firenze: Leo S. Olschki editore, pp. 1–25.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Jordanous, A., Lawrence, K. F., Hedges, M. and Tupman, C.</hi> (June 13-152012). Exploring Manuscripts: Sharing Ancient Wisdoms Across the Semantic Web. 
+                        <hi rend=""italic"">Proceedings of the 2nd International Conference on Web Intelligence, Mining and Semantics (WIMS), Craiova, Romania</hi>. New York, NY, USA: ACM, pp. 44:1–44:12. doi:10.1145/2254129.2254184.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">McCarty, W.</hi> (2005). 
+                        <hi rend=""italic"">Humanities Computing</hi>. Palgrave Macmillan.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">McCarty, W.</hi> (2008). Signs of times present and future. 
+                        <hi rend=""italic"">Human Discussion Group</hi>, 
+                        <hi rend=""bold"">22</hi>(218).
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">McGann, J.</hi> (2004). Marking Texts of Many Dimensions. In Schreibman, S., Siemens, R. and Unsworth, J. (eds), 
+                        <hi rend=""italic"">A Companion to Digital Humanities</hi>. (Blackwell Companions to Literature and Culture). Blackwell Publishing Ltd, pp. 198–217.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Meister, J. C.</hi> (2012). DH is us or on the unbearable lightness of a shared methodology. 
+                        <hi rend=""italic"">Historical Social Research</hi>, 
+                        <hi rend=""bold"">37</hi>(3): 77–85.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Moretti, F.</hi> (2013). 
+                        <hi rend=""italic"">Distant Reading</hi>. Verso Books.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Moretti, G., Tonelli, S., Menini, S. and Sprugnoli, R.</hi> (2014). ALCIDE: An online platform for the Analysis of Language and Content In a Digital Environment. 
+                        <hi rend=""italic"">Proceedings of the First Italian Conference on Computational Linguistics (CLIC-2014)</hi>. Pisa, Italy.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Moulin, C., Nyhan, J., Ciula, A., Kelleher, M., Mittler, E., Tadić, M., Ågren, M., Bozzi, A. and Kuutma, K.</hi> (2011). 
+                        <hi rend=""italic"">Research Infrastructures in the Digital Humanities</hi>. http://www.esf.org/hosting-experts/scientific-review-groups/humanities-hum/strategic-activities/research-infrastructures-in-the-humanities.html.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Nowviskie, B.</hi> (2007). Collex: Facets, Folksonomy, and Fashioning the Remixable web. 
+                        <hi rend=""italic"">Book of Abstract of Digital Humanities Conference (DH), University of Illinois at Urbana-Champaign</hi>. Alliance of Digital Humanities Organisations.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Ott, W.</hi> (2000). Strategies and tools for textual scholarship: the Tübingen system of text processing programs (TUSTEP). 
+                        <hi rend=""italic"">Literary and Linguistic Computing</hi>, 
+                        <hi rend=""bold"">15</hi>(1): 93–108. doi:10.1093/llc/15.1.93. http://llc.oxfordjournals.org/content/15/1/93.abstract.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Ott, W. and Ott, T.</hi> (2014). Critical Editing with TXSTEP. In Terras, M. (ed), 
+                        <hi rend=""italic"">Book of Abstracts of the Digital Humanities Conference, Lausanne, Switzerland</hi>. Alliance of Digital Humanities Organisations, pp. 509–13.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Paradis, J., Fendt, K., Kelley, W., Folsom, J., Pankow, J., Graham, E. and Subbaraj, L.</hi> (2013). Annotation Studio: Bringing a Time-Honored Learning Practice into the Digital Age. 
+                        <hi rend=""italic"">Whitepaper</hi>. http://cmsw.mit.edu/annotation-studio-whitepaper/ (accessed 3 March 2016).
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Pierazzo, E.</hi> (2015). 
+                        <hi rend=""italic"">Digital Scholarly Editing : Theories, Models and Methods</hi>. Farnham Surrey: Ashgate.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Renear, A. H., Mylonas, E. and Durand, D.</hi> (1996). Refining our notion of what text really is: The problem of overlapping hierarchies. (Ed.) Hockey, S. M. 
+                        <hi rend=""italic"">Research in Humanities Computing</hi>, 
+                        <hi rend=""bold"">4</hi>: 263–80.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Robinson, P.</hi> (2013). Towards a theory of digital editions. (Ed.) Mierlo, W. V. and Fachard, A. 
+                        <hi rend=""italic"">Variants</hi>, (10): 105–31.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Ruimy, N., Piccini, S. and Giovannetti, E.</hi> (2012). Defining and Structuring Saussure’s Terminology. In Fjeld, R. V. and Torjusen, J. M. (eds), 
+                        <hi rend=""italic"">Proceedings of 15th EURALEX International Congress</hi>. Oslo, Norway, Department of Linguistics and Scandinavian Studies, University of Oslo, Reprosentralen: UiO press, pp. 828–33.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Sahle, P.</hi> (2013). 
+                        <hi rend=""italic"">Digitale Editionsformen: Teil 3: Textbegriffe Und Recodierung; Zum Umgang Mit Der Überlieferung Unter Den Bedingungen Des Medienwandels</hi>. Vol. 3. BoD–Books on Demand.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Schmidt, D.</hi> (2010). The inadequacy of embedded markup for cultural heritage texts. 
+                        <hi rend=""italic"">Literary and Linguistic Computing</hi>, 
+                        <hi rend=""bold"">25</hi>(3): 337–56. doi:10.1093/llc/fqq007.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Schmidt, D.</hi> (2014). Towards an Interoperable Digital Scholarly Edition. 
+                        <hi rend=""italic"">Journal of the Text Encoding Initiative</hi>(7). doi:10.4000/jtei.979.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Sinclair, S. and Rockwell, G.</hi> (2012). the Voyant Tools Team (web application) 
+                        <hi rend=""italic"">Voyant Tools</hi>. http://voyant-tools.org (accessed 3 March 2016).
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Steiner, C., Agosti, M., Sweetnam, M., Hillemann, E.-C., Orio, N., Ponchia, C., Hampson, C., et al.</hi> (2014). Evaluating a digital humanities research environment: the CULTURA approach. 
+                        <hi rend=""italic"">International Journal on Digital Libraries</hi>, 
+                        <hi rend=""bold"">15</hi>(1): 53–70. doi:10.1007/s00799-014-0127-x.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Terras, M. and Crane, G. (eds).</hi> (2010). 
+                        <hi rend=""italic"">Changing the Center of Gravity: Transforming Classical Studies through Cyberinfrastructure</hi>. Piscataway: Gorgias Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Tulach, J.</hi> (2008). 
+                        <hi rend=""italic"">Practical API Design: Confessions of a Java Framework Architect</hi>. 1st ed. Berkely, CA, USA: Apress.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+",xml,This text is republished here with permission from the original rights holder.,,analysis architectural and design patterns;literary computing;object-oriented analysis and design;textual processing;web infrastructure,English,"archives, repositories, sustainability and preservation;bibliographic methods / textual studies;classical studies;concording and indexing;content analysis;corpora and corpus activities;cultural infrastructure;cultural studies;databases & dbms;data mining / text mining;digital humanities - facilities;digital humanities - institutional support;digitisation, resource creation, and discovery;digitisation - theory and practice;encoding - theory and practice;GLAM: galleries, libraries, archives, museums;information architecture;information retrieval;lexicography;linguistics;linking and annotation;literary studies;metadata;natural language processing;philology;programming;project design, organization, management;scholarly editing;software design and development;standards and interoperability;text analysis;user studies / user needs;xml"
+2492,2016 - Kraków,Kraków,Digital Identities: the Past and the Future,2016-01-01T00:00:00Z,ADHO,ADHO,Jagiellonian University;Pedagogical University of Krakow,Kraków,,Poland,https://dh2016.adho.org/,Enhancing Close Reading,,Muhammad Faisal Cheema;Stefan Jänicke;Gerik Scheuermann,poster / demo / art installation,"<text xmlns=""http://www.tei-c.org/ns/1.0"">
+        <body>
+            <div type=""div1"" rend=""DH-Heading1"">
+                <head>Motivation</head>
+                <p>In last years, the advancements in computer science brought a global change in the way information is stored, retrieved and analyzed. The digital humanities also benefit from these developments, and now, a vast amount of texts is available in digital form. This information explosion generates interesting research questions for humanities scholars who are capable of deriving new insights from this knowledge bank. In order to support humanities scholars, many visualization techniques – summarized in a survey (Jänicke et al., 2015b) – were developed to aid exploring large texts collections. Most of these techniques are interactive and belong to the category of distant reading (Moretti, 2005). The authors of the mentioned survey observe that less work has been done to improve the close reading capabilities of humanities scholars even though they are often focused on close reading text passages.</p>
+                <p>Close reading is the careful interpretation of the text, where the scholar iteratively reads the text in order to explore its meaning, inherent topics and occurring relationships (Boyles, 2013). Traditionally, close reading is done on paper. Several ideas and thoughts are made persistent by annotations written at the margins alongside the text (see Figure 1). But as the margin space is limited, not all observations can be put around the text. So, annotations may become cluttered and confusing for the reader, especially, when obsolete ideas are struck through. Despite its disadvantages, annotating on paper is still quite popular as it benefits the scholars to record observations about the hypothesis and all these changes reappear in front of the scholar’s eyes as soon as he re-reads the text passage. We observed that the way of annotating in close reading resembles the idea of mind maps (Buzan et al., 1993) that are based on a central concept and thoughts are represented around it using lines and text. In the close reading scenario, the text can be considered as the central concept and annotations represent thoughts.</p>
+                <p>An important task of computer science is to enhance the original workflows of researchers with computational methods. As most humanities scholars are well trained in close reading and nowadays often work with digital texts, it is necessary to enhance their capabilities for digital close reading. We propose an enhanced close reading design inspired by mind-maps that not only mimics the traditional way of annotating a text on paper, but also helps humanities scholars to perform live visual analyses. Furthermore, we use extendible margins to provide enough space for all thoughts of the scholar.</p>
+                <p>
+                    <anchor xml:id=""id_docs-internal-guid-cfc761b5-411d-b964-effb-76d244703cf0""/>
+                    <hi rend=""color(#000000)"">
+                        <figure>
+                            <graphic url=""262/1000000000000640000004D5F3E06A1C.png""/>
+                            <head>Figure 1: Traditional close reading on paper</head>
+                        </figure>
+                    </hi>
+                    <hi rend=""color(#000000)"">
+                        <note xml:id=""ftn1"" place=""foot"" n=""1"">
+                            <anchor xml:id=""id_docs-internal-guid-cfc761b5-418b-4abf-34b3-191157a29b72""/>
+                            <hi rend=""color(#000000)"">Image reproduced with permission from Kehoe (Kehoe et al., 2013)</hi>
+                        </note>
+                    </hi>
+                </p>
+            </div>
+            <div type=""div1"" rend=""DH-Heading1"">
+                <head>Related Work</head>
+                <p>Nancy Boyles (Boyles, 2013) defines close reading, which has become a fundamental method in literary criticism in the 20th century (Hawthorn, 2000), as follows: “Essentially, close reading means reading to uncover layers of meaning that lead to deep comprehension.” Annotating the text in close reading is a strong method for scholars to facilitate the understanding of a text passage. Figure 1 shows the result of a traditional close reading approach. In this example, various annotation methods were used by the scholar to annotate various features of a text passage in Charles Dickens' „David Copperfield“. </p>
+                <p>The availability of digital texts has further awaken the interest of humanities scholars in collaboratively close reading the same texts. There are several annotation tools for such a purpose, such as eMargin (Kehoe et al., 2013), Hypothes.is (Bonn et al., 2014) and NB (Zyto et al., 2012). These tools are beneficial for collaborative research and classroom environments as they provide an excellent paradigm to share thoughts, as well as find collective answers. To avoid clutter, these tools work with popup windows that are only shown on demand. In Figure 2, the eMargin system is shown where colors are used to highlight different text features, and a popup window on demand, lists the comments of collaborating scholars.</p>
+                <p>
+                    <anchor xml:id=""id_docs-internal-guid-cfc761b5-412e-0f91-0c44-c948a3dc5484""/>
+                    <hi rend=""color(#000000)"">
+                        <figure>
+                            <graphic url=""262/10000201000003CB000002F649BAF3AA.png""/>
+                            <head>Figure 2: eMargin annotation tool</head>
+                        </figure>
+                    </hi>
+                    <hi rend=""color(#000000)"">
+                        <note xml:id=""ftn2"" place=""foot"" n=""2"">
+                            <anchor xml:id=""id_docs-internal-guid-cfc761b5-418b-4abf-34b3-191157a29b722""/>
+                            <hi rend=""color(#000000)"">Image reproduced with permission from Kehoe (Kehoe et al., 2013)</hi>
+                        </note>
+                    </hi>
+                </p>
+                <p>Digital Ink Annotations systems (Schilit, 1998, Bargeron et al., 2003, Agrawala et al., 2005, Yoon et al., 2013) also support annotating text, but their use is only limited to pen-based computing devices such as tablets. The systems are designed to work well on smaller screens, and the adaption to larger screens is not appropriately implemented. </p>
+                <p>Close reading tasks can also be assisted via distant reading tools. For example, parallel coordinates, a heatmap and a dot plot are used to analyze the variance of a selected text passage from different German translations of Shakespeare’s Othello (Geng et al., 2013). Heat maps are appropriate visualizations to illustrate the distribution of specific phrases or annotations in a corpus (Muralidharan, 2011, Alex et al., 2015). Voyant Tools allow the user to perform basic text mining functions with selected word statistics shown in linked views (Sinclair et al., 2012). The Voyant Tools interface in Figure 3 shows statistics about Chapter 2 of Oscar Wilde's “David Copperfield”. Goffin's idea to enhance close reading is the integration of small visualizations (e.g., maps or bar charts) besides the words of a text (Goffin et al., 2014).</p>
+                <p>
+                    <figure>
+                        <graphic url=""262/100002010000077C000003DA2D6B26FC.png""/>
+                        <head>Figure 3: Screenshot of web-based Voyant Tools (Sinclair et al., 2012).</head>
+                    </figure>
+                </p>
+            </div>
+            <div type=""div1"" rend=""DH-Heading1"">
+                <head>Enhanced Close Reading Design</head>
+                <p>In contrast to the tools mentioned above, we combine traditional annotation tasks with distant reading analyses to enhance the close reading capabilities of the scholar. We suggest a design inspired by mind mapping (an example mind map is shown in Figure 4a), a methodology that allows a researcher to work on a central concept, and thoughts and features about that concept are placed around it using figures, lines etc. In a mind map, the associations spread out from a central concept in a free-flowing, yet organized and coherent manner (Budd, 2004) - thus forming a mental map of the central concept. We observe that like in the case of mind maps, fixed annotations around the central text in a traditional close reading process facilitate forming a mental map of the thoughts about the text of interest, and help the scholar to draw conclusions when seeing the whole picture.</p>
+                <table rend=""frame"" xml:id=""Table1"">
+                    <row>
+                        <cell>
+                            <figure>
+                                <graphic url=""262/10000200000002F4000001B428DDC0DA.png""/>
+                                <head>Figure 4a: An example mind map</head>
+                            </figure>
+                            <note xml:id=""ftn3"" place=""foot"" n=""3""> Image reproduced with permission from Kanter (Kanter, 2015) (Figure under CC BY 2.0 license, see 
+                                <ptr target=""https://creativecommons.org/licenses/by/2.0/""/> for details).
+                            </note>
+                        </cell>
+                        <cell>
+                            <figure>
+                                <graphic url=""262/10000201000002F4000001B45878ECC5.png""/>
+                                <head>Figure 4b: Mind-map inspired close reading</head>
+                            </figure>
+                        </cell>
+                    </row>
+                </table>
+                <p>Figure 4b illustrates the idea of a mind map inspired interface with multiple types of annotations supporting the scholar in the close reading process. Textual annotations known from the traditional close reading are also necessary in the digital process. In addition, images, videos and charts can facilitate text interpretation and the generation of valuable hypotheses about the text. To support dynamic, multifarious views on a certain text passage or a term of interest, we designed our interface the way that the literary scholar can apply a multitude of visual analyses and generate distant reading visualizations that are placed as annotations alongside the text. This combines the traditional close reading paradigm with elaborated text visualization techniques valuable for exploration purposes. An important feature of our proposed interface design is to support the scholar to „stay in the flow“ (Bederson, 2004), so that the central focus remains on the text, which can be analyzed without interrupting the scholar. The major advantage of our design over existing tools that assist close reading tasks is interface versatility. For example, Voyant Tools (see Figure 3) provide a predefined set of visualizations based on text statistics. On the other hand, our design allows the scholar to choose an appropriate text visualization as an annotation alongside the text, which is based on a user-defined query on the text.. Therefore, the scholar can apply different text visualizations for different passages of the text to support a variety of close reading tasks. </p>
+                <p>An example of the design discussed above is shown in Figure 5. The example from Figure 1 is annotated using different kinds of annotations. Like in other digital tools, certain topics of the text are annotated using colors. In addition, the character(s) Peggotty is marked and a panel shows thumbnail images based on a Google Images search. Also the relative word frequency chart of the term “Peggotty” in Chapter 2 is shown on the bottom left. Furthermore, on the left area, a TagPie (Jänicke et al., 2015a) showing the co-occurrences of both the terms memory and observation helps to investigate the hypothesis of the literary scholar about the similar meaning of both topics. The example depicts how the scholar can use different annotation tools as well as different distant reading tools to enrich the close reading experience.</p>
+                <p>
+                    <figure>
+                        <graphic url=""262/100002010000075F00000440C3691AC9.png""/>
+                        <head>Figure 5: Example of our design</head>
+                    </figure>
+                </p>
+            </div>
+            <div type=""div1"" rend=""DH-Heading1"">
+                <head>Future Work and Conclusions</head>
+                <p>We held discussion with the collaborating humanities scholars about the design as well as the usability of the proposed interface. The scholars remarked that such an interface will help removing fears of using digital humanities tools and that they intend to use the tool as it mimics their existing workflows. They also mentioned that such a tool could help users getting a better big picture of the text, and that it enhances the close reading capabilities of the scholar. Another important point is the capability in supporting teaching activities. They mentioned that various types of annotations (text, pictures, charts) are also used in teaching material, but it is not easy to share these with students. Such a tool could support this process as it generates persistent annotations to be analyzed and discussed collaboratively in courses. </p>
+                <p>We observe that the scholar’s initial reactions after seeing the prototype of the tool, which is still in development, are convincing and encouraging. We think that rigid modeling syntax is inappropriate for annotation. Our final interface will allow the scholar to make annotation styles versatile. At the digital humanities conference, we will demonstrate our prototype and discuss future prospects within the community. An additional user study will compare the viability of our proposed, mind map inspired annotation technique to existing approaches.</p>
+            </div>
+            <div type=""div1"" rend=""DH-Heading1"">
+                <head>Acknowledgements</head>
+                <p>We thank our colleagues from the humanities department, Judith Blumenstein in particular, who provided insights and expertise that greatly assisted this research.</p>
+            </div>
+        </body>
+        <back>
+            <div type=""bibliogr"">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl>
+                        <hi rend=""bold"">Agrawala, M. and Shilman, M.</hi> (2005). DIZI: a digital ink zooming interface for document annotation. <hi rend=""italic"">Human-Computer Interaction-INTERACT 2005</hi>, Springer Berlin Heidelberg, pp. 69-79.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Alex, B., Grover, C., Zhou, K., Hinrichs and Palimpsest, U.</hi> (2015). Improving Assisted Curation of Loco-specific Literature. <hi rend=""italic"">Proceedings of the Digital Humanities 2015</hi>, pp. 5-7.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Bargeron, D. and Moscovich, T.</hi> (2003). Reflowing digital ink annotations. <hi rend=""italic"">Proceedings of the SIGCHI conference on Human factors in computing systems</hi>, ACM, pp. 385-93.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Bederson, B. B.</hi> (2004). Interfaces for staying in the flow. <hi rend=""italic"">Ubiquity</hi>, 1-1.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Bonn, M. and McGlone, J.</hi> (2014). New Feature: Article Annotation with Hypothesis. <hi rend=""italic"">Journal of Electronic Publishing</hi>, <hi rend=""bold"">17</hi>(2).
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Boyles, N.</hi> (2013). Closing in on Close Reading. <hi rend=""italic"">Educational Leadership</hi>, <hi rend=""bold"">70</hi>(4): 36–41.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Budd, J. W.</hi> (2004). Mind Maps as Classroom Exercises. <hi rend=""italic"">The Journal of Economic Education</hi>, <hi rend=""bold"">35</hi>(1): 35–46.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Buzan, T. and Buzan, B.</hi> (1993). The Mind Map Book How to Use Radiant Thinking to Maximise Your Brain's Untapped Potential. New York: Plume.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Geng, Z., Cheesman, T., Laramee, R. S., Flanagan, K. and Thiel, S.</hi> (2013). ShakerVis: Visual analysis of segment variation of German translations of Shakespeare’s Othello. <hi rend=""italic"">Information Visualization</hi>, <hi rend=""bold"">15</hi>: 93-116.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Goffin, P., Willett, W., Fekete, J. D. and Isenberg, P.</hi> (2014). Exploring the placement and design of word-scale visualizations. Visualization and Computer Graphics, <hi rend=""italic"">IEEE Transactions</hi>, <hi rend=""bold"">20</hi>(12): 2291-300.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Hawthorn, J.</hi> (2000). <hi rend=""italic"">A glossary of contemporary literary theory</hi>. Oxford University Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Jänicke, S., Blumenstein, J., Rücker, M., Zeckzer, D. and Scheuermann, G.</hi> (2015a). Visualizing the Results of Search Queries on Ancient Text Corpora with Tag Pies. <hi rend=""italic"">Digital Humanities Quarterly</hi>.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Jänicke, S., Franzini, G., Cheema, M. F. and Scheuermann, G.</hi> (2015b). On Close and Distant Reading in Digital Humanities: A Survey and Future Challenges. In Borgo, R., Ganovelli, F., and Viola, I. (eds.), <hi rend=""italic"">Eurographics Conference on Visualization (EuroVis) - STARs (2015)</hi>, The Eurographics Association.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Kanter, B.</hi> (2015). Cambodia4kids.org, https://www.flickr.com/photos/cambodia4kidsorg/6195211411 (Retrieved 2015-11-25).
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Kehoe, A. and Gee, M.</hi> (2013). eMargin: A Collaborative Textual Annotation Tool. <hi rend=""italic"">Ariadne</hi>, <hi rend=""bold"">71</hi>.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">McCabe, M. M.</hi> (2015). <hi rend=""italic"">Platonic Conversations</hi>. Oxford University Press.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Moretti, F.</hi> (2005). <hi rend=""italic"">Graphs, Maps, Trees: Abstract Models for a Literary History</hi>. New York: Verso.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Muralidharan, A.</hi> (2011). A Visual Interface for Exploring Language Use in Slave Narratives. <hi rend=""italic"">Proceedings of the Digital Humanities 2011</hi>.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Schilit, B. N., Golovchinsky, G. and Price, M. N.</hi> (1998). Beyond paper: supporting active reading with free form digital ink annotations. <hi rend=""italic"">Proceedings of the SIGCHI conference on Human factors in computing systems</hi>, ACM Press/Addison-Wesley Publishing Co., pp. 249-56.
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Sinclair, S. and Rockwell, G.</hi> (2012). Voyant Tools. Online: http://voyant-tools.org (Retrieved 2015-11-25).
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Yoon, D., Chen, N. and Guimbretière, F.</hi> (2013). TextTearing: Opening white space for digital ink annotation. <hi rend=""italic"">Proceedings of the 26th annual ACM symposium on User interface software and technology</hi>, ACM, pp. 107-12. 
+                    </bibl>
+                    <bibl>
+                        <hi rend=""bold"">Zyto, S., Karger, D., Ackerman, M. and Mahajan, S. (2012).</hi> Successful classroom deployment of a social document annotation system. <hi rend=""italic"">Proceedings of the SIGCHI Conference on Human Factors in Computing Systems</hi>, ACM, pp. 1883-92.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+",xml,This text is republished here with permission from the original rights holder.,,annotations;close reading;distant reading,English,interface and user experience design;knowledge representation;linking and annotation;literary studies;text analysis;visualization
+2787,2016 - Kraków,Kraków,Digital Identities: the Past and the Future,2016-01-01T00:00:00Z,ADHO,ADHO,Jagiellonian University;Pedagogical University of Krakow,Kraków,,Poland,https://dh2016.adho.org/,The Digital Émigré: Russian Periodical Studies and DH in the Slavic Fields,,Natalia Ermolaev;Philip Gleissner,poster / demo / art installation,"<text xmlns=""http://www.tei-c.org/ns/1.0"">
+        <body>
+            <p>Digital Humanities has seen slow adoption in the Slavic language and literature fields in North American academia. This issue frames our project, the Digital Émigré, a digital resource for exploring Russian émigré periodical literature. Our project has a threefold aim. As periodical studies scholars, we want to enable access to Russian émigré journals for new audiences. As digital humanists, we believe that DH tools and methodologies can facilitate new forms of knowledge about twentieth-century Russian, and more broadly diaspora, literary and cultural history. Finally, as Slavists, we hope our project will be a hub for discussion about the applicability of DH theory and practice for scholars working with Russian-language material.</p>
+            <p>At this pilot stage, Digital Émigré is a web-based searchable database of article-level metadata of Russian-language journals published outside of Russia in the twentieth century. Our pilot contains four titles (approximately 100 issues and 1,500 articles): 
+                <hi rend=""italic"">Novoselye</hi> and 
+                <hi rend=""italic"">Novyi zhurnal</hi> were published in the 1940s in New York, and 
+                <hi rend=""italic"">Sintaksis</hi> and 
+                <hi rend=""italic"">Kontinent</hi>, in the late 1970s and 1980s in Paris. Our pilot site provides insight into literary culture at both the beginning and end of the Cold War, bookending the twentieth-century Russian diaspora experience. Digital Émigré is intended to scale, and will eventually contain additional titles and new functionality. 
+            </p>
+            <p>We will highlight the main scholarly avenues that DH methods allow us investigate, such as mapping networks of co-publication, tracking evolving political, social and cultural concerns of émigrés over the course of the Cold War, demonstrating the increased opportunities for émigré women as editors and contributors, and highlighting the proportion of original vs. re-printed work in émigré publications. This way, our project encourages experimentation that will enrich the study of Slavic periodical culture: accessing journals through their data can challenge narratives that are often framed by retroactive canonization, close reading and focus on individual authors. Digital Émigré thereby bridges philological approaches and sociological questions about intellectual networks and communities of artistic production. </p>
+            <p>The poster address the project’s core technical design: our strategy for data modeling and management and database design.  We will also present our plans for next steps, which is to provide full-text access and to federate our titles with other digital periodical collections. For this, we are designing a TEI schema modeled on major periodical studies digital collections -  specifically the Blue Mountain Project at Princeton University (
+                <ref target=""http://bluemountain.princeton.edu"">http://bluemountain.princeton.edu</ref> and the Yellow 90’s Online at Ryerson University (
+                <ref target=""http://www.1890s.ca"">http://www.1890s.ca</ref>)  
+            </p>
+            <p>We will also discuss the specific challenges of working with Russian language material and Cyrillic script, such as character encoding, transliteration, translation, and  tokenizing and stemming. These issues can be barriers to success when working with popular DH tools that are developed primarily for Western scripts and languages, and we will show our solutions for using some well-known tools for: data normalization (OpenRefine), text analysis (Voyant), network analysis (Gephi), visualization (Raw, Palladio), and topic modeling (MALLET).</p>
+            <p>Digital Émigré is committed not only to the exploration of the intellectual experience of diaspora cultural life. As a digital humanities project, it is itself invested in building intellectual communities around the engagement with this material and its afterlife. It aims to foster contact between scholars working with Russian and other Slavic languages internationally, especially through the discussion of issues of interoperability and creating multilingual digital research environments.</p>
+        </body>
+    </text>
+",xml,This text is republished here with permission from the original rights holder.,,literary studies;project design;russian;slavic studies,English,"archives, repositories, sustainability and preservation;digital humanities - multilinguality;encoding - theory and practice;literary studies;multilingual / multicultural approaches;philology;project design, organization, management"
+3775,2017 - Montréal,Montréal,Access/Accès,2017-01-01T00:00:00Z,ADHO,ADHO,McGill University;Université de Montréal,Montréal,,Canada,https://dh2017.adho.org/,Digital Religion – Digital Theology,https://dh2017.adho.org/abstracts/021/021.pdf,Claire Clivaz;Emily S. Clark;Paul Dilley;Katherine Mary Faull;Rachel McBride-Lindsey;Peter Phillips,panel / roundtable,"Introduction
+Scholarly discourse evaluating the digital turn in biblical and religious studies is at an early stage in its development, as attested to by the creation of two new
+
+book series in 2016: Introduction to Digital Humanities: Religion (IDH, de Gruyter), and Digital Biblical Studies (DBS, Brill). Previously, Heidi Campbell published an overview of the topic (Campbell 2013), developed in further publications (Campbell-Althenho-fen 2015, Campbell-Garner 2016). In a recent overview, Carrie Schroeder develops two central questions on the topic: “what does it mean for Biblical Studies to be marginal to the Digital Humanities when DH is a field positioning itself as transformative for the humanities? How can our expertise in Biblical Studies influence and shape Digital Humanities for the better?” (Schroeder 2016). Using her field, Coptic studies, as an example she shows that the particular skills and needs of a marginal field within a marginal field can be a strong driver in DH.
+
+Consequently, and for the first time at a DH meeting, this ninety-minute panel session asks what is the impact of the digital turn on religious studies and theology, and to what extent these somewhat marginal fields can bring something specific to the big DH tent. They particularly focus on textuality and on the symbolic impact of the “book” as attested to in the expression, “religions of the book,” coined in a programmatic lecture given in 1870 by F. Max Müller (2010). The symbolic, Western impact of books and writing was amplified by this notion, born at the time when the legal status of printed texts and authorship was completely secured in Western culture (Clivaz 2012).
+
+For centuries, “books were perceived as a ‘wide angle' from which it was possible for everything to be observed, related to, and perhaps even decided” (Carrière-Eco 2009). The panel will consequently consider the hypothesis that the DH have been deeply influenced by this fascination with textuality and books during the first decades of their development; while keeping “the discourse of written texts” as a central pillar to the discussion according to the words of Roberto Busa, a foundational DH figure (Busa 2004). Busa's relationship to Biblical and religious materials has played a role in his approach to the computing field, as Jones point out (Jones 2016). The double impact of the book and the notion of “religions of the book”, successful in Western culture since the 19th century, provides an opening to understanding why DH in religious fields is still so focused on textuality. Indeed, when we collect examples of DH studies in diverse religious fields, we are unsurprisingly faced with very textual DH (Clivaz et al. 2016e). This observation
+
+strengthens the necessity for religions in DH to consider the multimodal and multicultural turn provoked by digital culture.
+
+With these different questions in mind, five panelists will participate in the presentations (sixty minutes in total) and a thirty-minute panel discussion that will be moderated by Claire Clivaz representing the Swiss Institute of Bioinformatics, Vital-IT (Lausanne, CH). The following five speakers have agreed to participate and to discuss the general topic from the perspectives of their own research projects. In alphabetical order:
+
+A Neophyte Proselytizes for Digital Humanities Pedagogy
+Emily S. Clark
+This presentation explores the ways in which Digital Humanities can enhance a Religious Studies classroom by focusing on two assignments that ask new questions of traditional course materials. The first is a project that was the culmination of a month's work collaboratively amongst a class of 25 students with a database platform (Omeka). This project entailed the digitization of archival photographs of a Native American community from 1916, along with the reading of Jesuit mission material (Clark et al. 2016). The second is an assignment that took two class periods and introduced students to data visualization (Voyant). This assignment introduced students to the differences between close reading and distant reading, along with
+
+practicing both on excerpts from Jesuit mission documents (Mentrak - Bucko, 2016).
+
+Topic Modeling the Bible
+Paul Dilley
+The talk will present the first full-scale topic model of the Bible and related literature in four different languages: Greek, Latin, Syriac and English. It will discuss both technical aspects of the process (e.g., the use or not of lemmatization; retention or removal of function words; optimal number of topics), as well as what we gain from comparing topic models of the same corpus translated into different languages. The presentation will focus on the interpretive gains and losses involved in topic modeling, one of the richest strategies of distant reading to the Bible which has been the subject of centuries of minute examination of the close reading tradition which Moretti has pointedly labeled a “theological exercise” (Moretti 2013).
+
+Digital Lives: Reading Moravian Memoirs in the Age of the Internet
+Katherine M. Faull
+An international collaborative research project (USA, Sweden, Germany) is developing a digital platform for the investigation of the metadata and text of Moravian memoirs, composed since the mid-18th century by members of the Moravian Church to be read at their funeral (over 65,000 memoirs, housed in Germany and the US, Faull 1997). Less than 10% of the earliest manuscripts have been published. The developing digital interface (moravianlives.org) allows for geospatial and chronological visualization of author's birth and death place (Haskins 2007). This paper will investigate the intersection of the digital, the autobiographical, and the sacred in the age of the internet. How can the act of reading the lives of thousands of Moravians also be understood as an act of reconstituting the “invisible church” ? (van Dijk, 2007; Eakin 2014).
+
+Material Religions in a Digital World
+Rachel McBride-Lindsey
+For much of the modern era, religion and theology have been intertwined in a decidedly material world. Over the last several decades, students of religion have begun to carve out intellectual headroom for an approach to material culture that recognizes objects and images as generative sources of theological inquiry and religious practice. Cultural institutions can be an effective tool for inviting researchers and the public into physical spaces and into contact with deeper dimensions of the material world. At the same time, these very contributions work against methodological gains in the study of material culture. Rachel McBride-Lindsay's presentation starts with this tension and draws from pedagogical attempts to incorporate digital platforms into projects anchored in the study of objects.
+
+Exploring developmental patterns within Digital Theology Research within the Digital Humanities
+Peter Phillips
+Campbell and Altenhofen (2015) explore four waves in digital research development in theology and religion back into the late twentieth century. Their wave pattern picks up both historical and technological trends and patterns in research. However, a three wave theory dominates discussion within introductions to the Digital Humanities, discussed by David Berry (2011) and in the Digital Humanities Manifesto 2.0. It tends to reflect modes of research, or groups of methodologies used in research rather than time periods. Reflecting on CODEC's own experience of Digital Theology in association with a range of other scholars, this paper will assess whether too many waves are a problem in our methodological theorizing.
+
+Bibliography
+Berry, D (2011), “The computational turn: thinking about
+
+the Digital Humanities”, Culture Machine 12, 1-22.
+
+Busa, R. (2004), “Foreword: Perspectives on the Digital Humanities”, in S. Schreibman, R. Siemens, J. Unsworth (ed.), A Companion to Digital Humanities, Oxford: Blackwell, http://www.digitalhumanities.org/companion/ (Accessed 27 March 2017).
+
+Campbell, H.A (2013) (ed.), Digital Religion. Understanding religious practice in new media worlds, London/ New
+
+York : Routledge.
+
+Campbell, H.A. and Altenhofen, B (2015), “Methodological Challenges, Innovations and Growing Pains in Digital Religion Research”, in Digital Methodologies in the Sociology of Religion, S. Cheruvallil-Contractor - S. Shakkour (eds.), Blumsburry Publishing, Kindle edition.
+
+Campbell, H.A. and Garner, S. (2016), Networked theology.
+
+Negotiating faith in digital culture, Grand Rapids, MA : Baker Academy.
+
+Carrière, J-.C. and Eco, U. (2009), N'espérez pas vous débarrasser des livres, Paris, Seuil.
+
+Clark, E.S. et al. (2016), Digital Jesuits and Ignatian Pedagogy, King Island Collection, Jesuit Oregon Province Archives, Gonzaga University,    http://as-dh.gon-
+
+zaga.edu/omeka/ (Accessed 27 March 2017)
+
+Clivaz, C. (2012a), “Homer and the New Testament as ‘Multitexts’ in the Digital Age ?”, SRC 3/3, 1-15 ; http://src-online.ca/index.php/src/article/view/97 (Accessed 27 March 2017).
+
+Clivaz et al. (eds.) (2016), Digital Humanities in Jewish, Christian and Arabic traditions, special issue JRMDC 5 (2016/1),    https://www.jrmdc.com/journal/is-
+
+sue/view/9 (Accessed 27 March 2017).
+
+Von Dijk, J. (2007), Mediated Memories in the Digital Age. Stanford: Stanford UP.
+
+Moretti, F. (2013), Distant Reading, Verso, London, New York.
+
+Schroeder, C.T. (2016), “The Digital Humanities as Cultural Capital: Implications for Biblical and Religious Studies”, Journal of Religion, Media and Digital Culture 5(1), 21-49, <http://www.jrmdc.com/journal/issue/view/9>    (Ac
+
+cessed 27 March 2017).
+
+Eakin, P. J. (2014), “Autobiography as Cosmogram”, Story-worlds: A Journal of Narrative Studies 6/1: 21-43.
+
+Faull, K. M. (1997), ed. and trans., Moravian Women's Memoirs: Their Related Lives, 1750-1820, Syracuse, NY: Syracuse University Press.
+
+Haskins, E. (2007), “Between Archive and Participation: Public Memory in a Digital Age”, Rhetoric Society Quarterly 37/4, 401-422.
+
+Jones, S. (2016), Roberto Busa, S. J., and the Emergence of Humanities Computing: The Priest and the Punched Cards, Routledge Press, London.
+
+Mentrak, T. and Bucko, R.A. (2016), Jesuit Relations and Allied Documents 1610 to 1791, http://mo-ses.creighton.edu/kripke/jesuitrelations/ (Accessed 27 March 2017).
+
+Müller, F.M. (2010), “Second Lecture Delivered at the Royal Institution, February 26, 1870”, in F. M. Müller, Introduction to the science of religion. Four lectures delivered at the Royal Institution, Seneca Falls, NY: Wilson Press, 5282 (Original lectures February & May 1870).",txt,Creative Commons Attribution 4.0 International,,epistemology;multimodality;religious studies,English,"classical studies;content analysis;corpora and corpus activities;cultural studies;digitisation - theory and practice;diversity;geospatial analysis, interfaces and technology;literary studies;spatio-temporal modeling, analysis and visualisation;text analysis;theology"
+3794,2017 - Montréal,Montréal,Access/Accès,2017-01-01T00:00:00Z,ADHO,ADHO,McGill University;Université de Montréal,Montréal,,Canada,https://dh2017.adho.org/,Lexos: An Integrated Lexomics Workflow,https://dh2017.adho.org/abstracts/054/054.pdf,Scott Kleinman;Mark D. LeBlanc,poster / demo / art installation,"Lexos is a browser-based suite of tools that helps lower barriers of entry to computational text analysis for humanities scholars and students. Situated within a clean and simple interface, Lexos consolidates the common pre-processing operations needed for subsequent analysis, either with Lexos or with external tools. It is especially useful for scholars who wish to engage in research involving computational text analysis and/or wish to teach their students how to do so but lack the time for a manual preparation of texts, the skill sets needed to prepare their texts analysis, or the intellectual contexts for situating computational methods within their work. Lexos is also targeted at researchers studying early texts and texts in non-Western languages, which may involve specialized processing rules. It is thus designed to facilitate advanced research in these fields even for users more familiar with computational techniques. Lexos is developed by the Lexomics research group led by Michael Drout (Wheaton College), Mark LeBlanc (Wheaton College), and Scott Kleinman (California State University, Northridge). It is built on Python 2.7-Flask microframework, with jQuery-Bootstrap UI, and visualizations in d3.js. The Lexomics research group provides access to an public installation of Lexos which does not retain data after a session has expired. Users may also install Lexos locally by cloning the GitHub repository.
+
+Lexos guides users through a workflow of steps that reflects effective practices when working with digitized texts. The workflow includes: (i) uploading Unicode-encoded texts in plain text, HTML, or XML formats; (ii) “scrubbing” functions for consolidating preprocessing decisions such as the handling of punctuation, white-space, and stop words, the use of lemmati-zation rules, and the handling of embedded markup tags and special character entities; (iii) “cutting” texts into segments based on the number of characters, tokens, or lines, or by embedded milestones such as chapter breaks; (iv) tokenization into a Document Term Matrix of raw or proportional counts using character or word n-grams; (v) visualizations such as comparative word clouds per segment (including the ability to visualize topic models generated by MALLET); Rolling Window Analysis that plots the frequency of string, phrase, or regular expression patterns or pattern-pair ratios over the course of a document or collection; and (vi) analysis tools including statistical summaries, hierarchical and k-means clustering, cosine similarity rankings, and Z-tests to identify the relative prominence of terms in documents, document classes, and the collection as whole. At each stage in the workflow the user may download data, visualizations, or the results of the analytical tools, along with metadata about their preprocessing decisions or the parameters selected for their experiments. Lexos thus enables the export of data for use with other tools and facilitates experimental reproducibility.
+
+Lexos {scrubber} An Integrated Lexomics Workflow
+
+Scrubbing Options
+
+Q Remove All Punctuation
+
+B Keep Hyphens ©
+
+Q Make Lowercase
+
+B Keep Word-Internal Apostrophes©
+
+Q Remove Digits
+
+■ Remove Whitespace 0
+
+B Scrub Tags 0
+
+Additional Options
+
+Stop Words/Keep Words O >
+
+
+Previews of Documents
+
+
+A1.3_Dan_T00030.txt
+
+
+
+
+Gefr&ae;gn ic Hebreos eadge lifgean in Hierusalem goldhord d&ae;lan cyningdom hab ban swa him gecynde w&ae;s si&d;&d;an &t;urh metodes m&ae;gen on Moyses hand w
+
+ealra gesceafta drihten and waldend se him dom forgeaf unscyndne bl&ae;d eor&d;an rices and &t;u lignest nu &t;&ae;t sie lifgende se ofer deoflum duge&t;um wealde&d;. A3.3_Az_T00130.txt
+
+
+orn dryhten herede wis in weorcum ond &t;as Word acw&ae;&d;: Meotud allwihta &t;u eart meahtum swi&d; ni&t;as to nerganne. Is &t;in noma m&ae;re wütig ond wul h
+
+
+
+
+Special Characters 0 v
+
+
+Lemmas 0 v
+
+
+Consolidations 0 v
+
+
+Figure 1: The Lexos Scrubber Tool
+
+Lexos addresses three significant challenges for our intended users. The first challenge involves the adoption of computational text analysis methods. Many approaches require proficiency with command line scripting or the use of complex user interfaces that require time to master. Lexos addresses this problem through a simple, browser-based interface that manages workflow through the three major steps of text analysis: pre-processing, generation of statistical data, and visualization. In this, Lexos resembles Voyant Tools (Sinclair and Rockwell, 2016), although Lexos places more emphasis on and providing more tools for preprocessing and segmenting texts. Lexos also shares with tools like Stylometry with R (Eder, et al., 2013; Eder, 2013) and emphasis on cluster analysis, providing both hierarchical and K-Means clustering with silhouette scores as limited form of statistical validation. While Lexos is not a topic modeling tool, it provides a useful “topic cloud” feature for MALLET data that will be useful for beginners since there are few accessible ways to visualize MALLET output that work well out of the box.
+
+
+Figure 2: The Lexos Multicloud tool showing Chinese ""topic clouds""
+
+The second challenge is the opacity of the procedures required to move between computational and traditional forms of text analysis. In order to reduce the “black boxiness” of algorithmic methods, Lexos contains an embedded component called “In the Margins” which provides non-technical explanations of the statistical methods used and effective practices for
+
+handling situations typical of humanities data. “In the
+
+Margins” is a Scalar “book” which can be read separately; however, its individual pages are embedded in Lexos using Scalar's API, making them easily accessible for users of the tool. Lexos shares with tools like Voyant an engagement with the hermeneutics of text analysis and attempts to embed “In the Margins” discussion of these issues in the user interface close to the user's workflow. We hope “In the Margins” will host advice and commentary from contributors with the Digital Humanities community.
+
+A third challenge is the tension between quantitative and computational approaches and the traditions of theoretical and cultural criticism that dominate the humanities in the academy. As Alan Liu (2013) has recently argued, the challenge is to give a better theoretical grounding to the hybrid quantitative-qualitative method of the Digital Humanities by exploring the ways in which we negotiate the difficulties imposed by “the aporia between tabula rasa quantitative interpretation and humanly meaningful qualitative interpretation” (414). The design of Lexos and the discussions in “In the Margins” are intended to open a space for discussion of issues related to the opacity of algorithmic approaches and the limitations and epistemological challenges of computational stylistic analysis and visual representation of humanities data.
+
+This poster presentation provides demonstrations of Lexos using some literature from Old, Middle, and Modern English, as well Chinese, which are in our current test suite. We also discuss use cases and best practices, how to install Lexos locally, and how scholars may contribute to the still growing content of “In the Margins”.
+
+Bibliography
+
+Drout, M., Kleinman, S., and LeBlanc, M. 2016-. “In the Margins.” http://scalar.usc.edu/works/lexos./
+
+Eder, M. (2013). “Mind Your Corpus: Systematic Errors in Authorship Attribution.” Literary and Linguistic Computing 28 (4): 603-14.
+
+Eder, M., Kestemont, M., and Rybiki, J. 2013. “Stylometry with R: A Suite of Tools (Abstract of Poster Session)”. Presented at Digital Humanities 2013, Lincoln, Nebraska. http://dh2013.unl.edu/abstracts/ab-136.html, https://sites.google.com/site/computationalstylistics/
+
+Kleinman, S., LeBlanc, M.D., Drout, M. and Zhang, C. 2016. Lexos v3.0. https://github.com/WheatonCS/Lexos/.
+
+Liu, A. (2013). “The Meaning of the Digital Humanities.” PMLA 128 (2): 409-23.
+
+McCallum, A.K. (2002). MALLET: A Machine Learning for
+
+Language Toolkit. http://mallet.cs.umass.edu.
+
+Sinclair, S., and Rockwell, G. (2016). Voyant Tools. Web.
+
+http://voyant-tools.org/.",txt,Creative Commons Attribution 4.0 International,,interdisciplinary;lexomics;stylometry,English,"authorship attribution / authority;computer science;interdisciplinary collaboration;literary studies;medieval studies;philology;stylistics and stylometry;teaching, pedagogy, and curriculum;text analysis"
+3797,2017 - Montréal,Montréal,Access/Accès,2017-01-01T00:00:00Z,ADHO,ADHO,McGill University;Université de Montréal,Montréal,,Canada,https://dh2017.adho.org/,Modelling Interpretation in 3DH: New dimensions of visualization,https://dh2017.adho.org/abstracts/058/058.pdf,Jan Christoph Meister;Johanna Drucker;Geoffrey Rockwell,"paper, specified ""long paper""","Introduction
+Visualization techniques developed in the sciences normally focus on the (re)presentation of empirical data. But how can we graphically express interpretations? This paper presents the intellectual framework
+
+underpinning the 3DH project (Three-dimensional Visualizations for the Digital Humanities), a collaborative project conducted at the University of Hamburg from 2016 to 2019. The project foregrounds data interpretation and develops a visualization paradigm from the epistemological perspective of the humanities. The “third dimension” required in DH visualization techniques is therefore not merely that of an additional quantitative z-axis. Rather, it is an axis that can ‘unflatten' (Sousanis 2015) the objectivist notion of visualized data. In our presentation, we will do three things:
+
+•    Digital and visual turn: Review existing visualization paradigms that emphasize the representational approach. We start with the epistemological issues raised by the digital and visual turn.
+
+•    Visual modelling: Outline and discuss an interpretative modelling alternative through two case studies of existing tools, CATMA and Voyant, and Temporal Modelling, a platform for creating data through graphical means.
+
+• “Hermeneuticizing” visualization: Discuss the design of a full visual framework. We will present possible conventions and prototypes that use them. These inform our case studies and the envisaged infrastructure.
+
+Case studies in our presentation will be drawn from CATMA (a collaborative mark-up & text analysis environment), Voyant (a text analysis platform), and humanities research projects using base images (historical maps) and original models (for non-standard chronologies).
+
+The digital and the visual turn: a hermeneutic ceterum censeo
+
+For centuries, academic discourse in humanities disciplines has relied predominantly on text. In DH, however, visualizations increasingly claim the status of arguments and proofs that play a decisive role in the development and presentation of ideas, findings, and conclusions.
+
+The visual and the digital turn have thus gone hand in hand - but the way in which this synergy manifests itself remains constrained in a symptomatic way. We can print a chart or render it on screen just as we can print or display a text in various media, but we normally cannot subject the chart to in-depth critique in the way we can question and respond to the text. Inadvertently, once generated and communicated as ‘output', visualizations seem to take on a quasi-dogmatic quality - they are hard to deconstruct, let alone reconfigure; they state their case but seem removed from critical reflection.
+
+Most current DH visualizations are thus epistemological one-way avenues toward knowledge, from data via rendering algorithm to visual display. Charts, graphs, interactive maps, timelines, and similar representations are by and large imports from the natural and social sciences (Friendly 2008). Many of them emanate from domains of empirical research that conceptualize knowledge production as a function of empirical observation and objective measurement followed by analysis, inference, and conclusion. These approaches to visualization, however, hide two critical aspects, namely
+
+(a) the underlying human modeling of the represented phenomena as data, which is already an interpretive and meaning-creating act that often oscillates repeatedly between observation and interpretation (Kitchin 2014), and
+
+(b) the meaning-lessness of certain visual effects that are owed to contingent technological constraints (screen size, rendering, scaling, choice of color, etc.).
+
+DH is in a unique position to investigate the domains of human experience and of its expression in symbolic practices and artefacts from two complementary methodological vantage points: the numeric, which models them as statistical phenomena, and the hermeneutic, which explores them as phenomena of meaning and thus by definition as a function of interpretation (Rockwell & Sinclair 2016). Where meaning comes into focus, our theories, object models, and practices
+
+must therefore be conceptually aligned and ‘herme-
+
+neuticized' - just as numeric approaches come with the pre-requisite of quantification. Against this backdrop, we propose to reintroduce the dimension of interpretation into visualization: Methodological principles of hermeneutic approaches, such as multi-per-spectivity, subjectivity, and context-boundedness present a challenge which representational visualization cannot and which interpretational visualization must meet.
+
+Two questions arise: What are the defining principles of a genuinely humanistic and hermeneutically oriented approach to visualization? And how can we graphically express and support interpretation in DH visualizations - both as an activity and as a product of humanistic enquiry?
+
+Visual modeling of interpretation vs. visualization of data
+
+In the 3DH project, we address the former question by conceptual analysis and critique of existing approaches to visualization in DH, and then by systematically specifying and developing a visualization environment that can support higher level data interpretation rather than base-level data representation. In the presentation, we will share our survey of existing tools and their affordances but focus on two tools that we have developed, CATMA and Voyant.
+
+
+Figure 1: Visualization of interpretive text annotation in CATMA
+
+Our premise is that interpretation happens through the deliberate activity of an individual engaging with an image, text, display, or other artifact to create an argument about its meaning and a way it should be read.
+
+For example, in CATMA (Figure 1) such an activity - in this instance the interpretive act of text annotation - is executed and represented by (a) highlighting a string on screen, (b) assigning it a tag, and (c) storing the annotation in a stand-off markup file. However, the annotation is at the same time (d) visually expressed as colored underlining. Moreover, via its visual representation on screen - the colored underlining - the markup data can also be (e) inspected, analyzed, manipulated directly, and even (f) enriched with meta-annotation. This is but one example of interpretative modeling.
+
+Current representational ‘one-way' techniques like topic modeling (see Figure 2) are seen as a way to deal with scale, they process large amounts of data into summary abstractions called topics that can be displayed as lists or in other ways (Montague et. al 2015). In our second case study, we will therefore show how we are adapting scale tools to create a prototypical bidirectional 3DH visual modeling environment for big
+
+
+
+Figure 2: Galaxy Viewer
+
+data. We believe visual modeling can support not only interpretative close reading of primary data but also the reading of large collections like the collections of the Hathi Trust.
+
+‘Hermeneuticizing' base-level visualization through activators: the 3DH framework of interpretive parameters and dimensions
+
+A key goal of the 3DH project is to develop a set of generic graphic features that can be used to create interpretative attributes and/or inflections of visual representations of data, alter underlying data structures, and activate three-dimensional space in the service of interpretative activity. These features which aim to ‘hermeneuticize' visualizations are termed activators. In the presentation we will show the framework of the
+
+activator set that was developed during a series of cha-
+
+rettes (design workshops) in 2016.
+
+
+Figure 3: Framework of Concept Modeling workspace: Shows features, activators, and dimensions from various pictorial conventions.
+
+The visual activators in our feature set are not simply graphical marks or animations on a screen display: They perform data structuring functions and as such provide a conceptual framework for ‘hermeneu-ticizing' existing base-level data visualization techniques (see Fig.3). The individual features of this framework indicate and facilitate interpretative moves made by the user, such as a qualification of visualized data structures in terms of salience, irrelevance, uncertainty, degree of completeness, and other attributes or inflections. For example, uncertainty can be expressed by overlaying a standard graph with visual effects such as blur or shading, whereas the introduction of additional interpretative dimensions, such as point of view systems, parallax, relative scales, and other conventions from the visual arts, will support higher levels of interpretative critique and reflection, such as explicitly marking the historicity and context-dependency of underlying data.
+
+Conclusion
+
+As Pinker (1990) argues, the ease with which a particular graph can be understood is a function of the processing effort that goes into the exercise: The more we can rely on ‘hard-wired' encoding connections between the visual and the conceptual and the more we are guided by established graph and comprehension schemata (such as Gestalt phenomena), the less ‘intelligent' effort we have to put into reading a graph. Yet in a humanities perspective such conventionalized ‘ease of comprehension' is a double-edged sword: It may optimize the process of (re)cognition - but it also progressively obscures the constructedness of a visualization, turning it into an apparently self-evident object of perception. The 3DH project counters this anti-hermeneutic tendency toward reification by moving from a conceptualization of the principles of visualization as interpretative modeling to the development of a visual language framework, and finally the instantiation of the principles and language in two case studies. In terms of implementation, this approach is supported by drawing on Bertin's Semiology of Graphics and the high-level object-oriented Grammar of Graphics approach outlined by Wilkinson (2005), and features from game engines, three-dimensional modelling, and other pictorial conventions (Panofsky (1991) and Burgin (1991)).
+
+To conclude, we will discuss next steps toward developing a 3DH environment that can act as a generic, project independent infrastructure for introducing user parameterized enunciative functionality into graphical displays. This infrastructure will make it possible to inscribe into visualizations the critical features of authorship, speaking/spoken subject, and an epistemological perspective grounded in situated and constructed approaches to knowledge. These interpretative principles are well mapped in, e.g., critical theory, narratology, visual studies, and cultural studies, but they have not been integrated into a graphical environment for hermeneutic practice yet: the methodological lacuna which the 3DH project tries to address.
+
+Bibliography
+
+Bertin, J. (1983). Semiology of Graphics: Diagrams, Networks, Maps. Madison, WI, University of Wisconsin Press.
+
+Burgin, V. (1991). “Geometry and Abjection”. In: J. Donald
+
+(ed.), Psychoanalysis and Cultural Theory: Thresholds.
+
+London, Macmillan Education, pp. 11-26 .
+
+Chandrasekaran, B. & Lele, O. (2010). “Mapping Descriptive Models of Graph Comprehension into Requirements for a Computational Architecture: Need for Supporting Imagery Operations”. In: A. K. Goel, M. Jamnik & N. H. Narayanan (eds.), Diagrammatic Representation and Inference. 6th International Conference, Diagrams 2010, Portland, OR, USA, August 9-11, 2010. Proceedings. Berlin & Heidelberg, Springer Verlag, pp. 235-242.
+
+Drucker, J. (2011). “Humanities approaches to Graphical
+
+Display”. In: DHQ, Digital Humanities Quarterly, 5 (1). http://digitalhumani-
+
+ties.org/dhq/vol/5/1/000091/000091.html [March 17 2017].
+
+(2014). Graphesis, Cambridge, Harvard University Press.
+
+Friendly, M. (2008). “A Brief History of Data Visualization”. In: C.-H. Chen, W. K. Hardle & A. Unwin (eds.), Handbook of Data Visualization. Heidelberg, Springer-Verlag, pp. 134.
+
+Kath, R., Schaal, G. S. & Dumm, S. (2016). „New Visual Hermeneutics“. In: Cybernetics and Human Knowing, 23 (2), pp. 51-75.
+
+Kitchin, R. (2014). The Data Revolution: Big Data, Open Data, Data Infrastructures & Their Consequences. Los Angeles, SAGE.
+
+Montague, J., Simpson, J., Brown, S., Rockwell, G. & Ruecker, S. (2015). “Exploring Large Datasets with Topic Model Visualization”. Conference paper at DH 2015, University of Western Sydney, Australia.
+
+Panofsky, E. (1991). Perspective as Symbolic Form; C. Wood, trans.; New York, Zone Books.
+
+Pinker, S. (1990). “A Theory of Graph Comprehension”. In: R. Feedle (ed.), Artificial Intelligence and the future of testing. Marwah, NJ, Erlbaum Hillsdale, pp. 73-126.
+
+Rockwell, G. & Sinclair, S. (2016). Hermeneutica. Cambridge, MS & London, MIT Press.
+
+Sousanis, N. (2015). Unflattening. Cambridge, MS & London, Harvard University Press.
+
+Wilkinson, L. (2005). The Grammar of Graphics. 2nd ed.; New York, Springer.",txt,Creative Commons Attribution 4.0 International,,interpretation;modelling;visualization,English,"computer science;data modeling and architecture including hypothesis-driven modeling;geospatial analysis, interfaces and technology;interface & user experience design/publishing & delivery systems/user studies/user needs;knowledge representation;linguistics;literary studies;philosophy;spatio-temporal modeling, analysis and visualisation;visualization"
+4118,2017 - Montréal,Montréal,Access/Accès,2017-01-01T00:00:00Z,ADHO,ADHO,McGill University;Université de Montréal,Montréal,,Canada,https://dh2017.adho.org/,"An Open, Reproducible Method for Teaching Text Analysis with R",https://dh2017.adho.org/abstracts/544/544.pdf,Tassie Gniady;Eric Wernert,poster / demo / art installation,"Over the past year and a half, the Cyberinfrastructure for Digital Humanities (CyberDH) Group at Indiana University has been developing an open instructional workflow for text analysis that aims to build algorithmic understanding and basic coding skills before scaling up analyses (Gniady et al., 2017). We have chosen to bootstrap in R, a high level and high productivity language, with methods that are open, repeatable, and sustainable. The aim is to provide code templates that can be adapted, remixed, and scaled to fit a wide range of text analysis tasks. This poster presents our approach to teaching computational text analysis and a representative hypothetical case study in which two different users are able to start with the same corpus and adapt code to achieve very different end results in a way not currently possible with black box tools.
+
+This paradigm is fundamentally different from that currently practiced by many in the digital humanities. Black-boxed tools with GUIs that hide computation are very popular for introducing new practitioners of text analysis in the digital humanities to basic algorithms and outputs. In 2012, AntConc was downloaded 120,000 times by users in 80 different countries (Anthony, 2014). Voyant 1.0 had 113 sites linking to it actively in 2012 (Sinclair and Rockwell, 2013) and the week Voyant 2.0 was released the server went down multiple times from excess traffic (@VoyantTools, 2016). However, one of its default corpora is the Shakespearean dramas, with speaker names and stage directions. ((Sinclair and Rockwell, 2016). The inclusion of speaker names skews all algorithms related to frequency counts of characters (e.g. word clouds), which a new user may not even think to take into account. Using AntConc's concordance tool with a Shakespearean corpora including speaker names gives an idea of when a character speaks and when a character is mentioned, but this conflation might not jump out at a new user. If anything, we suggest learning about algorithms first and then moving up to black-box tools when one has the means to critique them.
+
+Having looked at popular “plug-and-play” tools for corpora visualization, it becomes evident that even simple visualizations can lead to inaccurate results if the user is not thinking through how a corpus is being processed to produce a result. We believe that if the user understands how the algorithm is generating visualizations, they can contribute more meaningfully to critiques of sophisticated algorithms when partnered with programmers or even go on to bootstrap themselves with awareness of their domain's particular caveats. Thus, we advocate teaching humanists the basics of coding to create conversant programmers similar to the methodology behind Matthew Jockers' Text Analysis with R for Students of Literature, but with a slightly slower ramp up. To this end we have a three-step process of introducing R: web-deployed Shiny apps, highly marked up RNotebooks, and lightly commented RScripts, both in “regular” and higher performance versions. All are available for download on Github (with associated sample data from Shakespeare and Twitter) (CyberDH Team, 2017). We hope that this simpler bootstrapping method that mixes code and explanation, pedagogy and self-driven inquiry, will be of use to those looking to onramp new practitioners who may go on to partner with programmers if needed or to remix available code to look at their own knowledge domain.
+
+Bibliography
+
+Anthony, L. (2016). Antconc 3.4.4. Software.
+
+http://www.laurenceanthony.net/soft-
+
+ware/antconc/.
+
+Gniady, T. Thomas, G. and Kloster, D. (2017). Text Analysis Github Repository. https://github.com/cyberdh/Text-Analysis.
+
+Jockers, M. (2014). Text Analysis with R for Students of Literature. New York: Springer International Publishing.
+
+Sinclair, S. and Rockwell, G. (2013). “Voyant Notebooks: Literate Programming, Programming Literacy.” Digital
+
+Humanities 2014: Conference Abstracts. Nebraska-Lin-
+
+coin: http://dh2013.unl.edu/abstracts/ab-295.html.
+
+Sinclair, S. and Rockwell, G. (2016). Voyant Tools. http://voyant-tools.org/.
+
+@VoyantTools. Twitter. 8 April 2016.",txt,Creative Commons Attribution 4.0 International,,r;repeatable workflows;text analysis;visualization,English,"content analysis;english studies;literary studies;teaching, pedagogy, and curriculum;text analysis;visualization"
+4160,2017 - Montréal,Montréal,Access/Accès,2017-01-01T00:00:00Z,ADHO,ADHO,McGill University;Université de Montréal,Montréal,,Canada,https://dh2017.adho.org/,Scaffolded Hermeneutica for Literary Scholars with Novice Technical Skills,https://dh2017.adho.org/abstracts/601/601.pdf,Jeremy Browne,"paper, specified ""short paper""","Hermeneutica
+In Hermeneutica, Geoffrey Rockwell and Stéfan Sinclair (2016) argue for an approach to the digital humanities that deemphasizes the tool and positivist notions of proof. Their proposed approach, also called Hermeneutica, champions tool accessibility over tool sophistication. Similarly, scholarly play is legitimated as a useful step in developing research questions and as a means to reconsider established notions within literary disciplines. The aim of Hermeneutica as a methodology seems to be the generation of interesting humanistic questions as much as the resolution of open questions.
+
+Rockwell and Sinclair demonstrate the difference between Hermeneutica and typical DH approaches by quoting from Gary Wong's 2009 blog post:
+
+[Typical DH] takes the worst part of the scientific papers (really really long sets of tabular data in the body of the text) and the worst part of papers from the humanities (really really complicated language where simple language would have done) and puts it in one. If this is what the cooperation of computational text analysis and traditional literary analysis yield, I
+
+am scared.
+
+Because Hermeneutica attempts to join the best parts of these fields, it has the potential to turn DH into a discipline that is more useful for the vast majority of non-DH humanists. It could be the means of accelerating the mainstreaming of DH methods and bringing us to the eventual point where all humanities are digital—a destination Claire Clivaz described succinctly (DARIAH, 2016).
+
+Voyant
+One feature that distinguishes Hermeneutica from many other DH approaches is its companion set of tools meant to demonstrate its application. Voyant Tools, now referred to simply as Voyant, is a web-based, modular suite of tools meant to be “worth thinking with” (Rockwell and Sinclair, 2016: 10, original emphasis). The goal is to accommodate playful exploration of text and sharing of corpora across the web. It is not designed as an industrial-grade text analysis tool, but as a “toy” that allows scholars to uncover new questions and gain new appreciation of texts.
+
+Current limitations of Hermeneutica
+A fundamental component of Hermeneutica is that the scholar views text through the lens of Voyant (or other computational text analysis tools), and then synthesizes that experience with their prior knowledge of the text and its milieu. A problem that Voyant addresses, but does not solve, is that many scholars who know the most about specific texts lack the technological skills that would be considered pre-novice in DH circles. Voyant allows everyone with a text and a browser to explore word frequencies, collocations, etc., but it presupposes that the text is available and clean enough for use. In order for Hermeneutica to appeal to non-DH humanities scholars, these issues of text availability and the lack of user skill must first be addressed.
+
+On the issue of text availability, it is not often that scholars wish to analyze text that is rare or missing. More often they are interested in text that is protected by various copyright laws, which prohibit posting the text to public websites such as Voyant. Thankfully, in the Unites States at least, Google Books' recent court victory (Stohr, 2016) now permits scholars to publish online the analysis results derived from copyrighted texts, so long as the original text is not recoverable by the user. To this end Rockwell and Sinclair developed Voyant 2's “non-consumptive” mode which restricts access to tools that allow full-text views.
+
+While such developments represent Rockwell and Sinclair's amenability to meet the ever-evolving needs of Hermeneuticans, accommodating users' lack of technology skill is beyond the scope of their involvement. For example, it is not reasonable to expect the Voyant developers to be concerned over issues of text acquisition or text preparation. Rather, those con-cerns—while critical to expanding the pool of potential Hermeneuticans—are issues of local implementation. Similarly, it makes sense that Voyant would offer the ability to link to a corpus after uploading the text, but uploading the text and keeping track of various versions of corpora is beyond the scope of Voyant. A local practice of adding some structure around the
+
+Voyant suite ought to make Hermeneutica useful to a far greater audience than it is now.
+
+Scaffolding
+In the field of instructional design, such structure is called scaffolding. Specifically, scaffolding refers to the process of providing learners adequate introduction and examples before allowing them to attempt a task on their own (Bruner, 1978). For scaffolded Her-meneutica, DH-savvy professionals can work to acquire, clean, and upload text to Voyant (and other tools), and then provide public listings of the resulting corpora.
+
+Examples of scaffolded Hermeneutica
+We have implemented this scaffolded Hermeneu-tica approach in our Office of Digital Humanities beginning with the Cormac McCarthy Corpus Project (CMCP). The CMCP includes 13 Voyant corpora of McCarthy's 10 novels: one for the complete works, one for each novel, and two for novels (The Orchard Keeper and The Road) where the narration has been segregated from the dialogue. But the linchpin of scaffolded Hermeneutica is the CMCP's publicly-accessible website that organizes these Voyant corpora. The website is built on WordPress with the Pods content management plugin, and contains information on McCarthy's work, descriptions of Voyant (and other tools), and listings of links to the Voyant corpora. An essential feature of the website's structure is the ability to accommodate revisions to the current corpora as well as the addition of other tools in the future. Already, there is a non-Voyant sentence structure search tool attached as a beta-testing option.
+
+A rough version of the Cormac McCarthy Corpus Project was presented at the 2015 conference of the Cormac McCarthy Society. The reaction to these tools being available for public use was strongly positive. One attendee referred to the website as “a game-changer.”
+
+The same scaffolded Hermeneutica is being implemented on two other projects: Machado a longa distancia and The Modernist Short Fiction Project. Preliminary demonstrations of the approach have yielded similar reactions to what we observed with the CMCP. Non-DH scholars become excited rather than anxious when the digital analysis tools are scaffolded to provide them ready access. In fact, these demonstrations turn into play sessions where non-DH scholars repeatedly request for certain words to be added to the frequency charts and other Voyant panels.
+
+Hermeneutica and Voyant represent the greatest potential for growth in DH not because they are the most technologically or theoretically advanced developments, but because they are the most accessible to non-DH scholars. Still, they don't quite reach the ground level of technology skills possessed by most researchers in the humanities. The scaffolded Herme-neutica approach proposed in this paper seems to span that gap to make Hermeneutica more accessible.
+
+Bibliography
+Bruner, J. S. (1978). “The role of dialogue in language acquisition.” In Sinclair, A., Jarvelle, R., J., and W. J.M. Levelt (eds), The Child's Concept of Language. New York: Springer-Verlag.
+
+DARIAH (2016). My Digital Humanities - Part 1. YouTube.
+
+https://www.youtube.com/watch?v=I8aRtHW3b6g
+
+(accessed 1 November 2016).
+
+Rockwell, G. and Sinclair, S. (2016). Hermeneutica. Cambridge: MIT Press.
+
+Stohr, G. (2016). Google Book Project Can Proceed as Supreme Court Spurns Appeal. Bloomberg Politics. http://www.bloomberg.com/politics/articles/2016-04-18/google-book-project-can-proceed-as-top-u-s-court-spurns-appeal (accessed 1 November 2016).
+
+Conclusion",txt,Creative Commons Attribution 4.0 International,,hermenutica;text analysis;voyant,English,corpora and corpus activities;literary studies;text analysis
+11707,2022 - Tokyo,Tokyo,Responding to Asian Diversity,2022-01-01T00:00:00Z,ADHO,ADHO,,Tokyo,,Japan,https://dh2022.adho.org/,PRISMS: a new platform for digital Book History,,Alexander Huber;Emma Huber,"paper, specified ""long paper""","<text xmlns=""http://www.tei-c.org/ns/1.0"" xml:lang=""en"">
+        <body>
+            <div type=""div1"" rend=""DH-Heading1"">
+                <head>Introduction and motivation</head>
+                <p style=""text-align: left; "">In a 2020 talk entitled “A Hornbook for Digital Book History”, Whitney Trettien weaves together many of the strands that have led book history, bibliography, media studies, and the digital humanities to have become deeply entangled in recent years. She convincingly argues for the potential of Book History done digitally “to build connective tissue across scattered collections” and advocates “using the digital tools at our disposal in order to see the big picture of the past”.
+                    <note place=""foot"" xml:id=""ftn1"" n=""1"">
+                        <p rend=""footnote text"">
+                            <ref target=""https://rarebookschool.org/rbs-online/a-hornbook-for-digital-book-history/"">https://rarebookschool.org/rbs-online/a-hornbook-for-digital-book-history/</ref>. She shares this vision of a continuum of print and digital with other influential voices at the intersection of book history, media studies, and the digital humanities, among them Henrike Laehnemann, Sarah Werner, and Matt Kirschenbaum to name but a few.
+                        </p>
+                    </note>
+                </p>
+                <p style=""text-align: left; "">It is in this vein that this paper presents the motivation for and realisation of a new open-access open scholarship platform (currently in public beta) named PRISMS.
+                    <note place=""foot"" xml:id=""ftn2"" n=""2"">
+                        <p rend=""footnote text"">
+                            <ref target=""https://www.prisms.digital/"">https://www.prisms.digital/</ref>
+                        </p>
+                    </note> The aim of the PRISMS Open Scholarship platform is two-fold:
+                </p>
+                <list type=""ordered"">
+                    <item>It offers a publication platform for digital scholarly editions, with full-text (preferably encoded in TEI) and facsimiles, and any accompanying materials, such as introduction, editorial statement, critical apparatus, contextual source materials, bibliography, and indices;</item>
+                    <item>It facilitates the semantic annotation of these editions and their related scholarship (in any format) by enabling easy-to-perform formal ontological modelling (based on the CIDOC-CRM family of ontologies
+                        <note place=""foot"" xml:id=""ftn3"" n=""3"">
+                            <p rend=""footnote text"">
+                                <ref target=""http://www.cidoc-crm.org/"">http://www.cidoc-crm.org/</ref>
+                            </p>
+                        </note>), and thus hopes to contribute to providing the abovementioned “connective tissue” not only for scattered collections, but to overcome the artificial print/digital divide.
+                    </item>
+                </list>
+                <p style=""text-align: left; "">PRISMS was born out of the realization that digital editions do not break with the historicity or materiality of the sources they organize and present, but instead remediate and extend them in ways that enable new forms of access, engagement, presentation, and analysis. PRISMS conceptualizes digital editions as living entities that perform rather than merely document the remediation they engage in.</p>
+                <p style=""text-align: left; "">The scholarship that underpins each digital edition provides the essential context for these remediation processes, and collectively they sustain the knowledge network that supports all academic engagement with the texts from any disciplinary viewpoint. PRISMS is designed to allow for the collaborative and collective modelling of this continuum of digital editions and scholarship by placing digital editions, their material and contextual basis, and the resulting academic engagement in a linked context, building on the standards and tools provided by the Semantic Web.</p>
+                <p style=""text-align: left; "">We believe that this type of formalization is beneficial for the purposes of this project in at least three ways: firstly, ontologies facilitate modelling with reduced reliance on implicit knowledge through an explicit, shared conceptualization of the domain. Secondly, formal models encourage collaboration as they can be shared, re-used, adapted (forked), enhanced, aggregated, and developed collaboratively. Thirdly, as a form of knowledge representation, visualization, and preservation, formal models support computational processing and ultimately reasoning, and can develop alongside the mental models and human reasoning we engage in as scholars. PRISMS facilitates scholarship that is based on these principles
+                    <note place=""foot"" xml:id=""ftn4"" n=""4"">
+                        <p rend=""footnote text""> Ground-breaking research projects in this domain include the 
+                            <ref target=""https://researchspace.org/"">ResearchSpace</ref> platform and the 
+                            <ref target=""https://sphaera.mpiwg-berlin.mpg.de/"">Sphaera CorpusTracer</ref> project.
+                        </p>
+                    </note>.
+                </p>
+            </div>
+            <div type=""div1"" rend=""DH-Heading1"">
+                <head>Approach and implementation</head>
+                <p style=""text-align: left; "">The PRISMS Open Scholarship platform integrates the task of publishing digital editions with the need for analytical and modelling tools to perform the type of knowledge representation that connects the material, digital, and the scholarship that builds on them. PRISMS aims to support digital editors, book historians, experts in media and cultural studies, librarians, literary scholars, and of course digital humanists, to ensure a wide range of domain expertise, disciplinary practices, and methodological approaches are reflected in the platform. To this end, the PRISMS platform hosts a variety of tools alongside the digital editions, which can be categorized as component tools (such as text-based tools, image-based tools, XML-based tools, etc.) and workbench tools (those available across document types and editions).</p>
+                <figure>
+                    <graphic n=""1001"" width=""16.002cm"" height=""8.200319444444444cm"" url=""Pictures/d07cb664d746dee79113a8b75d7b65f4.jpeg"" rend=""inline""/>
+                    <head>Figure 1 
+                        <hi rend=""italic color(474747)"" style=""font-family:Open Sans;font-size:10pt"">Some of the built-in analysis and visualization tools in PRISMS. Voyant-Tools is shown alongside a relation being made between two editions, and some highlighted annotations</hi>
+                    </head>
+                </figure>
+                <p style=""text-align: left; "">The former category of tools is useful for any type of close scholarly work, and in PRISMS these tools include a bookmarking tool, an annotation tool (initially focussing on texts and images, but with a vision to extend annotation capabilities across all media types), the ability to keep research records (and other forms of note-taking, e.g. transcriptions, translations etc.) in the form of notebooks, and integration of Voyant Tools
+                    <note place=""foot"" xml:id=""ftn5"" n=""5"">
+                        <p rend=""footnote text"">
+                            <ref target=""https://voyant-tools.org/"">https://voyant-tools.org/</ref>
+                        </p>
+                    </note> for statistical analysis and a variety of visualisations of texts. The latter category includes the ability to participate in the shaping of the knowledge graph by modelling concepts and relationships, an easy way to organize research materials, and the ability to download, share, and publish contributions for the benefit of all.
+                </p>
+                <figure>
+                    <graphic n=""1002"" width=""16.002cm"" height=""8.200319444444444cm"" url=""Pictures/a59b90da3ac111e8830619980ef05599.jpeg"" rend=""inline""/>
+                    <head>Figure 2 
+                        <hi rend=""italic color(474747)"" style=""font-family:Open Sans;font-size:10pt"">Modelling both the material legacies and digital remediation processes with Linked Data technologies and Cytoscape.js</hi>
+                    </head>
+                </figure>
+                <p style=""text-align: left; "">All semantic modelling work, e.g. with regard to the provenance of the material and digital manifestations of an edition, can be performed both directly in a visual representation of the graph using Cytoscape.js or via a set of customizable HTML forms. All resulting triples are stored in an RDF-native graph database (using the abovementioned ontologies) for long-term preservation, collaboration, and re-use. Every user of PRISMS has both read access to this global graph that underpins the platform and unlimited access (via SPARQL Update operations) to a private graph. By default, everything in PRISMS is private. Everything contributors add is immediately visible to them, and they can conduct their scholarship in complete privacy, without delay or interference. Only when the user decides to publish their contributions will they be made available to everyone. Depending on the type of contribution made, there are options to share, download, and/or publish them. All contributions made to the PRISMS platform are stored in standard formats, e.g. the W3C Web Annotation Data Model for annotations and relations.</p>
+            </div>
+            <div type=""div1"" rend=""DH-Heading1"">
+                <head>Contribution and further work</head>
+                <p style=""text-align: left; "">PRISMS has been launched with corpora from the EEBO-TCP
+                    <note place=""foot"" xml:id=""ftn6"" n=""6"">
+                        <p rend=""footnote text"">
+                            <ref target=""https://textcreationpartnership.org/tcp-texts/eebo-tcp-early-english-books-online/"">https://textcreationpartnership.org/tcp-texts/eebo-tcp-early-english-books-online/</ref>
+                        </p>
+                    </note>, ECCO-TCP
+                    <note place=""foot"" xml:id=""ftn7"" n=""7"">
+                        <p rend=""footnote text"">
+                            <ref target=""https://textcreationpartnership.org/tcp-texts/ecco-tcp-eighteenth-century-collections-online/"">https://textcreationpartnership.org/tcp-texts/ecco-tcp-eighteenth-century-collections-online/</ref>
+                        </p>
+                    </note>, EVANS-TCP
+                    <note place=""foot"" xml:id=""ftn8"" n=""8"">
+                        <p rend=""footnote text"">
+                            <ref target=""https://textcreationpartnership.org/tcp-texts/evans-tcp-evans-early-american-imprints/"">https://textcreationpartnership.org/tcp-texts/evans-tcp-evans-early-american-imprints/</ref>
+                        </p>
+                    </note>, the DTA extended core corpus
+                    <note place=""foot"" xml:id=""ftn9"" n=""9"">
+                        <p rend=""footnote text"">
+                            <ref target=""https://www.deutschestextarchiv.de/"">https://www.deutschestextarchiv.de/</ref>
+                        </p>
+                    </note>, and the Taylor Editions
+                    <note place=""foot"" xml:id=""ftn10"" n=""10"">
+                        <p rend=""footnote text"">
+                            <ref target=""https://editions.mml.ox.ac.uk/"">https://editions.mml.ox.ac.uk/</ref>
+                        </p>
+                    </note> scholarly editions platform. And it is easy to add new editions to the platform either as part of a dedicated digital scholarly editing process, for which training is provided, or by simply adding a IIIF manifest and using a built-in XML-aware or standard text-editor to start transcribing and adding contextual materials. The platform already supports the addition and semantic annotation of a wide range of primary and secondary materials, such as facsimiles in IIIF, a transcription of a source text, a PDF of a journal article, a video of a theatrical performance, an audio book, an image, or a 3D-model of a sculpture mentioned in a text, etc. 
+                </p>
+                <figure>
+                    <graphic n=""1003"" width=""16.002cm"" height=""8.19326388888889cm"" url=""Pictures/ddf3b307349c15c53eafbeda53a58283.jpeg"" rend=""inline""/>
+                    <head>Figure 3 
+                        <hi rend=""italic color(474747)"" style=""font-family:Open Sans;font-size:10pt"">A view of the PRISMS workbench, with three editions of Faust loaded, and an aggregation of primary and research materials in support of a performance analysis, with a facsimile, two videos, and an audio book</hi>
+                    </head>
+                </figure>
+                <p style=""text-align: left; "">Moving forward, we will continue to work on integrating the digital research and tools important to PRISMS’ users (e.g. reference manager, images taken in reading rooms, items deposited in institutional repositories). With end of the beta phase, the project also intends to provide access to the entire PRISMS knowledge graph through regular data dumps and a public SPARQL endpoint. We envision that over time, PRISMS will evolve both as a powerful discovery tool and a personal research tool.</p>
+            </div>
+        </body>
+        <back>
+            <div type=""bibliogr"">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl style=""text-align: left; "">Ciotti, F. (2015) “Digital methods for Literary Criticism.” Lecture slides. University of Rome Tor Vergata, 
+                        <ref target=""http://didattica.uniroma2.it/files/scarica/insegnamento/161783-Informatica-Umanistica-Lm-Per-Il-Llea/37175-Slide"">http://didattica.uniroma2.it/files/scarica/insegnamento/161783-Informatica-Umanistica-Lm-Per-Il-Llea/37175-Slide</ref>
+                    </bibl>
+                    <bibl style=""text-align: left; "">Ciula, A. and Marras, C. (2016) “Circling around texts and language: towards 'pragmatic modelling' in Digital Humanities.” 
+                        <hi rend=""titlej"">
+                            <hi rend=""italic"">Digital Humanities Quarterly (DHQ)</hi>
+                        </hi> 10.3 
+                        <ref target=""http://www.digitalhumanities.org/dhq/vol/10/3/000258/000258.html"">http://www.digitalhumanities.org/dhq/vol/10/3/000258/000258.html</ref>
+                    </bibl>
+                    <bibl style=""text-align: left; "">Ciula, A. and Eide, Ø. (2107) “Modelling in digital humanities: Signs in context.” 
+                        <hi rend=""titlej"">
+                            <hi rend=""italic"">Digital Scholarship in the Humanities</hi>
+                        </hi> 32: i33–i46. 
+                        <ref target=""https://doi.org/10.1093/llc/fqw045"">https://doi.org/10.1093/llc/fqw045</ref>
+                    </bibl>
+                    <bibl style=""text-align: left; "">Ciula, A., Eide, Ø, Marras, C. and Sahle, P. (2018) 
+                        <hi rend=""italic"" xml:space=""preserve"">Models and Modelling between Digital and Humanities — A Multidisciplinary Perspective. </hi>
+                        <hi rend=""titlej"">Historical Social Research (HSR)</hi> Supplement 31.
+                    </bibl>
+                    <bibl style=""text-align: left; "">Eide, Ø. (2015)
+                        <hi rend=""italic"" xml:space=""preserve""> Media Boundaries and Conceptual Modelling: Between Texts and Maps.</hi> Pre-print manuscript, 
+                        <ref target=""https://www.oeide.no/research/eideBetween.pdf"">https://www.oeide.no/research/eideBetween.pdf</ref>
+                    </bibl>
+                    <bibl style=""text-align: left; "">Kirschenbaum, M. and Werner, S. (2014) “Digital Scholarship and Digital Studies: The State of the Discipline.” 
+                        <hi rend=""italic"">Book History</hi> 17, 406-458 
+                        <ref target=""https://www.academia.edu/15995371/Digital_Studies_and_Digital_Scholarship_The_State_of_the_Discipline"">https://www.academia.edu/15995371/Digital_​Studies_​and_​Digital_​Scholarship_​The_​State_​of_​the_​Discipline</ref>
+                    </bibl>
+                    <bibl style=""text-align: left; "">Kräutli, F. and Valleriani, M. (2018) “CorpusTracer: A CIDOC database for tracing knowledge networks.” 
+                        <hi rend=""italic"">Digital Scholarship in the Humanities</hi> 33(2): 336-346. 
+                        <ref target=""https://pure.mpg.de/rest/items/item_2472866_10/component/file_3002633/content"">https://pure.mpg.de/rest/items/item_2472866_10/component/file_3002633/content</ref>
+                    </bibl>
+                    <bibl style=""text-align: left; "">Laehnemann, H. (2022) “History of the Book blog.” 
+                        <ref target=""https://historyofthebook.mml.ox.ac.uk/"">https://historyofthebook.mml.ox.ac.uk/</ref>
+                    </bibl>
+                    <bibl style=""text-align: left; "">Oldman, D., Doerr, M. and Gradmann, S. (2016) “Zen and the Art of Linked Data: New Strategies for a Semantic Web of Humanist Knowledge.” In Schreibman, S., Siemens, R., Unsworth, J. (eds.) 
+                        <hi rend=""italic"">A New Companion to Digital Humanities.</hi> Malden, MA: Wiley Blackwell, 251-273.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+
+",xml,This text is republished here with permission from the original rights holder.,,digital book history;knowledge modelling;scholarly editing,English,"15th-17th century;18th century;19th century;analysis;book and print history;english;global;linked (open) data;literary studies;scholarly editing and editions development, analysis, and methods"
+11736,2022 - Tokyo,Tokyo,Responding to Asian Diversity,2022-01-01T00:00:00Z,ADHO,ADHO,,Tokyo,,Japan,https://dh2022.adho.org/,"Web Services for Voyant: LINCS, Voyant and NSSI: LINCS, Voyant and NSSI",,Geoffrey Martin Rockwell;Natalie Hervieux;Huma Zafar;Kaylin Land;Andrew MacDonald;Denilson Barbosa;Luciano Frizzera;Mihaela Ilovan;Susan Brown,"paper, specified ""long paper""","<text xmlns=""http://www.tei-c.org/ns/1.0"" xml:lang=""en"">
+        <body>
+            <div type=""div1"" rend=""DH-Heading1"">
+                <head>Introduction</head>
+                <p style=""text-align: left; "">It is difficult to identify named entities like people and places in long texts and even more difficult to connect the entities that you find to the rich network of information available on the web. In this paper we describe work supported by the LINCS (Linked Infrastructure for Networked Cultural Scholarship) project to make named entity recognition available to scholars through Voyant and its extension Spyral. In this talk we will:</p>
+                <p style=""text-align: left; "">First, describe the development of NSSI, a set of named entity recognition (NER) tools that are also available as web services for other tools like Voyant to use.</p>
+                <p style=""text-align: left; "">Second, describe how Voyant can use NSSI as a web service to process a text by adding named entity recognition.</p>
+                <p style=""text-align: left; "">Third, describe how Spyral, the notebook programming extension of Voyant, can be used for more sophisticated control of the process of named entity recognition, extraction, and use in Voyant. </p>
+                <p style=""text-align: left; "">Finally, we will conclude by discussing how NSSI and Spyral will be linked into the LINCS infrastructure to allow scholars to connect their enriched data to that of others.</p>
+                <p style=""text-align: left; "">Background on LINCS</p>
+                <p style=""text-align: left; "">Humanists tend to be interested in named people, named places and particular organizations over time. NER tools let humanists identify mentions in text referring to the people, places, organizations and other entities discussed in large collections without having to manually comb through them. Good tools like the Stanford Named Entity Recognizer (Finkel et al. 2005) have been available for some time, but are difficult to use if you are not familiar with command line tools and not connected with other resources.</p>
+                <p style=""text-align: left; "">The LINCS project, led by Susan Brown at the University of Guelph, is funded by the Canadian Foundation for Innovation to develop shared infrastructure for linked open data. To that end LINCS is working with teams at the University of Alberta and McGill University to develop new NER tools and to connect them to easy-to-use text analysis environments like Voyant.</p>
+            </div>
+            <div type=""div1"" rend=""DH-Heading1"">
+                <head>NSSI</head>
+                <p style=""text-align: left; "">NSSI, or NERVE Secure Scalable Infrastructure, is an application that bundles natural language processing tools, making them simple to use and combine into workflows common to the digital humanities (Zafar 2021). This framework was developed as part of the LINCS project, with the intent to decouple the backend NER tools from the existing Named Entity Recognition Vetting Environment (NERVE) user interface developed by the Canadian Writing Research Collaboratory. This separation allows us to continue using those NER services for NERVE, while making them accessible to other tools such as Voyant and Spyral.</p>
+                <p style=""text-align: left; "">NSSI’s design focuses on modularity, with each tool connected as a service that can be used individually or within a larger set of steps. For NER in particular, we have integrated Stanford NER which otherwise requires programming knowledge to use, since it does not come with its own API. With NSSI, a tool such as Spyral can make an API call that includes input text or XML and retrieve the named entities when processing completes. In the presentation we will briefly describe the NSSI infrastructure.</p>
+                <figure>
+                    <graphic n=""1001"" width=""16.002cm"" height=""10.100027777777777cm"" url=""Pictures/3f40d77e17c9bd0bbd421b51e7b72b5c.png"" rend=""inline""/>
+                    <head>Figure 1: Experimental RezoViz NER Interface in Voyant</head>
+                </figure>
+            </div>
+            <div type=""div1"" rend=""DH-Heading1"">
+                <head>Voyant and Spyral</head>
+                <p style=""text-align: left; "">Voyant Tools is a suite of text analysis and visualization tools that are widely used with over 100,000 users in the last six months. The tools are available in the browser so they don’t need to be installed, though you can download them and run them locally (Rockwell & Sinclair 2016). In the presentation we will show how Voyant can call the NER tools in NSSI and display the found entities as a list for further use. We will also describe the usability testing conducted on ResoViz through the LINCS project.</p>
+                <figure>
+                    <graphic n=""1002"" width=""16.002cm"" height=""10.100027777777777cm"" url=""Pictures/cd500b7e6df44dca3c7896f1864d715a.png"" rend=""inline""/>
+                    <head>Figure 2: ResoViz Social Network Visualization</head>
+                </figure>
+                <p style=""text-align: left; "">Voyant is also being extended with a notebook programming environment called Spyral (Land et al. 2021; Rockwell et al. 2021). Spyral is, like Observable, an in-browser notebook programming environment that uses JavaScript as the programming language. The difference between Spyral and other notebook environments like Mathematica or Google Colab is that a) the notebooks are maintained on the server so that, again, there is no installation needed and b) Spyral is an extension to Voyant. This means that you can save what you see in Voyant as a notebook with an interactive panel of results embedded in the notebook. Then you can document your results, add more interactive panels, and process the results. In the presentation we will show how Spyral can be used to extend the work with NSSI possible with Voyant and to edit and document results.</p>
+            </div>
+            <div type=""div1"" rend=""DH-Heading1"">
+                <head>Next Steps</head>
+                <p style=""text-align: left; "">The paper will conclude by describing the next steps in the larger project, and those are to allow users to connect named entities in their texts to other data about the entities available through the LINCS triple store and other open data resources like Wikidata (Vrandečić 2012). The ultimate goal is to provide scholars with linked infrastructure where data about entities like people or novels can be annotated and connected with that of other projects.</p>
+            </div>
+            <div type=""div1"" rend=""DH-Heading1"">
+                <head>Links</head>
+                <p style=""text-align: left; "">Google Colaboratory (Colab): https://colab.research.google.com/ </p>
+                <p style=""text-align: left; "">LINCS project: https://lincsproject.ca/</p>
+                <p style=""text-align: left; "">Stanford Named Entity Recognizer: https://nlp.stanford.edu/software/CRF-NER.html </p>
+                <p style=""text-align: left; "">Voyant Tools: https://voyant-tools.org and Spyral: https://voyant-tools.org/spyral</p>
+            </div>
+        </body>
+        <back>
+            <div type=""bibliogr"">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl style=""text-align: left; "">Finkel, J. R., Grenager, T., and Manning C. (2005). Incorporating Non-local Information into Information Extraction Systems by Gibbs Sampling. Proceedings of the 43nd Annual Meeting of the Association for Computational Linguistics (ACL 2005), pp. 363-370. http://nlp.stanford.edu/~manning/papers/gibbscrf3.pdf (accessed 21 May 2022).</bibl>
+                    <bibl style=""text-align: left; "">Zafar, H. (2021). Linked Data Conversion using Microservices [video file]. Zenodo. https://doi.org/10.5281/zenodo.6551465 (accessed 21 May 2022).</bibl>
+                    <bibl style=""text-align: left; "">Land, K., MacDonald, A. and Rockwell, G. (2021). Spyral Notebooks as a Supplement to Voyant Tools. CSDH-SCHN 2021 conference online. http://dx.doi.org/10.17613/2bsr-xp53 (accessed 21 May 2022).</bibl>
+                    <bibl style=""text-align: left; "">Rockwell, G. and Sinclair, S. (2016). Hermeneutica: Computer-Assisted Interpretation in the Humanities. Cambridge, Massachusetts, MIT Press.</bibl>
+                    <bibl style=""text-align: left; "">Rockwell, G., Land, K., and MacDonald, A. (2021). Social Analytics Through Spyral. Pop! Public. Open. Participatory. no. 3 (2021-10-31). https://popjournal.ca/issue03/rockwell (accessed 21 May 2022).</bibl>
+                    <bibl style=""text-align: left; "">
+                        <hi rend=""Subtle_Reference"" xml:space=""preserve"">Vrandečić, D. (2012). Wikidata: A new platform for collaborative data collection. In </hi>Proceedings of the 21st international conference on world wide web, pp. 1063-1064.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+
+",xml,This text is republished here with permission from the original rights holder.,,infrastructure;named entity recognition;text analysis;text visualization;web services,English,"20th century;contemporary;english;humanities computing;literary studies;natural language processing;north america;software development, systems, analysis and methods"
+11875,2022 - Tokyo,Tokyo,Responding to Asian Diversity,2022-01-01T00:00:00Z,ADHO,ADHO,,Tokyo,,Japan,https://dh2022.adho.org/,"Literary Text Analysis with Spyral Notebooks, a Notebook Environment Companion to Voyant Tools",,Kaylin Catherine Land;Geoffrey Rockwell;Andrew MacDonald;Bennett Kuwan Tchoc;Elliot Damasah,workshop / tutorial,"<text xmlns=""http://www.tei-c.org/ns/1.0"" xml:lang=""en"">
+        <body>
+            <p style=""text-align: left; "">Digital literary text analysis is increasingly becoming an integral part of literary studies. However, many tools designed for performing such analysis remain inaccessible to researchers without significant coding and computing skills. Voyant Tools was designed in part to address this gap. Spyral Notebooks are an extension of Voyant Tools and allow researchers to expand upon their findings from Voyant in a notebook environment. Unlike other notebook environments, Spyral Notebooks are accessible without downloading any programs or advanced set-up. Spyral Notebooks are available in an entirely online format. To use Spyral Notebooks, one needs only a connection to the Internet. The notebooks are easily adaptable, shareable, and editable. </p>
+            <p style=""text-align: left; "">Spyral is a notebook development environment that is integrated into Voyant Tools. Notebook environments can be thought of as both extensions of traditional research notebooks and as novel tools that integrate documentation, active analysis and presentation of results. At their core, notebooks are made up of three types of blocks or cells that a user can add or delete in a sequence. </p>
+            <list rend=""numbered"">
+                <item>There are text cells that can contain headings and other text elements found in word processors or browser editors (usually based in HTML) for typing unstructured text. Depending on the notebook environment, the text blocks can be simple or more sophisticated. Spyral Notebooks use HTML for text and offer an in- browser WYSIWYG HTML editor for the text blocks. </item>
+                <item>There are code cells where the user inputs code, be it Python, the Wolfram language used in Mathematica, or JavaScript, which is used in Spyral. The code cells can be run in sequence or individually as you debug your code. Code cells can contain as much or as little code as the user desires. </item>
+                <item>There are output cells which produce the output of the code you input in the associated code cell. It is important to recognize that the output of the code is dependent on what you have instructed the computer to do; that is, it is not a printout of the code cell but the results of running your code. You thus have to instruct the computer to print out the desired results. </item>
+            </list>
+            <p style=""text-align: left; "">In our tutorial we introduce participants to Spyral Notebooks. We illustrate how to create a corpus for textual analysis from Voyant Tools or directly in Spyral Notebooks. After walking through the basic mechanisms for using Spyral Notebooks including saving, editing, and sharing notebooks, we move on to more specific features available in Spyral. Participants will learn how to enhance the capabilities of Voyant and go deeper with their textual analysis using Spyral. Finally we provide participants with several tutorial notebooks designed to highlight some of Spyral’s advanced features such as categories for use in sentiment analysis. </p>
+            <p style=""text-align: left; "">Spyral Notebooks are a welcome addition to the field of digital humanities as they provide an accessible notebook environment specifically designed for literary text analysis. Spyral Notebooks are thoughtfully designed to serve researchers with limited coding skills who want to take their analysis from Voyant one step further. We especially envisage Spyral proving useful for digital humanities instructors. Spyral provides a useful platform for student work, allowing students to embed their analysis from Voyant, perform more complex analysis using JavaScript, and annotate their code with their thought processes.</p>
+        </body>
+    </text>
+
+",xml,This text is republished here with permission from the original rights holder.,,javascript;literary text analysis;notebook environments,English,"contemporary;education/ pedagogy;english;global;interface design, development, and analysis;literary studies;text mining and analysis"
+11910,2022 - Tokyo,Tokyo,Responding to Asian Diversity,2022-01-01T00:00:00Z,ADHO,ADHO,,Tokyo,,Japan,https://dh2022.adho.org/,The case for DH in Literary scholarship,,Elena Pierazzo,"paper, specified ""long paper""","<text xmlns=""http://www.tei-c.org/ns/1.0"" xml:lang=""en"">
+        <body>
+            <p style=""text-align: left; "">Not all Humanities have been equally touched by the digital. For textual scholarship, history and linguistics, for instance, we can have a substantial number of scholarly contributions, particularly when we include experiences embodied in projects and resources. However, comparatively speaking, digital literary criticism has had few followers. An exception are Computational Literary Studies (CLS) that apply quantitative methods to large amount of literary and bibliometric data. Linked to the methods of distant reading [Moretti, 2005], this approach enjoys great success today, while web resources like Voyant, software like Gephi, and programming environments like R, have made text mining very accessible, even for those with limited computer skills. Linked to this approach, stylometry and authorship attribution are also thriving. Particularly mediatized researches are the initiatives that led to ""unmasking"" the identies of Robert Galbraith, a pseudonym of J.K. Rowling, and Elena Ferrante [Joula, 2015; Tuzzi and Cortelazzo, 2018]. However, literary criticism connected to close reading seems almost absent from the DH radar. The CATMA tool, designed to define personalized tagsets for (mainly) literary analysis [Meister 2020], represents a bright exception. Meister, in fact, is one of the few scholars that has engaged with digital literary criticism and digital hermeneutics; the latter has been explored also by Van Zundert (2016) and Ramsey (2011), but from a quantitative perspective. Relatively few scholars in DH have to addressed literary criticism with qualitative approaches, which are, conversely, among the most important for non-digital literary scholars.</p>
+            <p style=""text-align: left; "">The reasons for this absence are probably to be found in the controversies about the use of markup within texts that have inflamed the scholarly community since the Eighties. The act of adding explicit markers in the text has been subjected to scrutiny, as it is perceived (rightly) as a harbinger of interpretation and this fact has been (and is, to a certain extent, still) perceived as an invasion, a disfigurement of the text; Cummings (2008) gives a vivid account of the debate and reflects on how it has limited the use of TEI for literary criticism. The argument goes that once the text is marked up, it cannot be reused by others because the interpretation added by the encoder would make it unusable. According to this vision, digital texts must be made available in their most neutral and objective form, and any form of annotation, including editorial, must be avoided. Sperberg-McQueen 1991 and Cummings 2008, amongst others, have tried to address the issue, and I have argued elsewhere on the hermeneutic fallacy of the category of objectivity [Pierazzo 2015]; but these methods remain far from impacting “the Humanities at large” and in particular the literary scholars [Meister 2020]. However, in order to contextualize this debate, one should go back to when this controversy was born. The urgency of those years was to put texts online, to create literary corpora for concordances and the study of word frequencies; at the time, digital acquisition of texts, the transformation of the printed into sequences of characters to be analyzed by computers (Machine Readable Form) was mostly done by hand, with an enormous expenditure of time and energy. The emphasis was therefore on making texts available and on the need of not repeating work. Researchers did not want to work with texts full of manually added codes which then had to be removed just as manually in order to reuse the texts.</p>
+            <p style=""text-align: left; "">It is worth noting, though, how this discourse hides the concept of DH as a service: the goal was thought produce resources for others to do “real” research. This argument is not only dangerous, condemning DH to a mere service, but also wrong, as text, any text, can only be the result of the dialectical compromise between the source documents that contains it and scholars that interpret it (even when they “only” transcribe it), and therefore no text can ever be considered objectively neutral [Pierazzo, 2015]. Today conditions have changed: most literary texts are digitally available in many versions, not to mention the plethora of tools and methods to “get rid of” markup, therefore the objections do not stand in the same way.</p>
+            <p style=""text-align: left; "">Another obstacle for the uptake of DH in literary studies is the conviction that close reading and critical interpretation only require a reader, a text, and a (printed) essay, and therefore computers, in this context, are useful as typewriters [Kirschenbaum, 2016]. Yet, the lack of experimentation and engagement of the scholarly community in DH for literary analysis does not allow for a clear assessment of the epistemological added value of using computers for one or few texts at a time. But shouldn’t be this the moment for rethinking Digital Literary Studies? Couldn’t we at least try to use markup, ontologies and other methods to understand a text, or answer questions about interpretation?</p>
+            <p style=""text-align: left; "">The paper will present some experiences at the University of Tours using TEI markup for the history of ideas, and ontologies and databases for analysis of fictional entities (people and places). We have applied these methods to works by Boccaccio, the Vite by Vasari, and to a small corpus of librettos of the 17th century. These experiments are showing promising results, not only in literary terms, but also on a largely methodological perspective, with colleagues and researchers finding themselves challenged and enticed by DH heuristics.</p>
+            <p style=""text-align: left; "">Conditions are ripe for experiences and discussions in order to evaluate the impact of DH in literary studies, particularly in the light of the advancements in HTR and other types of CLS that have the potentials of bringing a large amount of unknown and understudied texts into the literary arena. This could truly change our perspectives and understandings on literature, but we need to sharpen our hermeneutical tools first.</p>
+        </body>
+        <back>
+            <div type=""bibliogr"">
+                <listBibl>
+                    <head>Bibliography</head>
+                    <bibl style=""text-align: left; "">
+                        <hi rend=""bold"">Cummings, J.</hi>, 2008. The text encoding initiative and the study of literature. In 
+                        <hi rend=""italic"">A companion to digital literary studies</hi> (pp. 451-76), Blackwell.
+                    </bibl>
+                    <bibl style=""text-align: left; "">
+                        <hi rend=""bold"">Kirschenbaum, M.G.</hi>, 2016. What is digital humanities and what’s it doing in English departments?. In 
+                        <hi rend=""italic"">Defining Digital Humanities</hi> (pp. 211-220). Routledge.
+                    </bibl>
+                    <bibl style=""text-align: left; "">
+                        <hi rend=""bold"">Juola, P.</hi>, 2015. The Rowling case: A proposed standard analytic protocol for authorship questions. 
+                        <hi rend=""italic"">Digital Scholarship in the Humanities</hi>, 30(1): 100-113.
+                    </bibl>
+                    <bibl style=""text-align: left; "">
+                        <hi rend=""bold"">Pierazzo, E.</hi>, 2015. 
+                        <hi rend=""italic"">Digital scholarly editing: Theories, models and methods</hi>. Routledge.
+                    </bibl>
+                    <bibl style=""text-align: left; "">
+                        <hi rend=""bold"">Ramsay, S.</hi>, 2011. 
+                        <hi rend=""italic"">Reading Machines: Toward and Algorithmic Criticism</hi>. University of Illinois Press.
+                    </bibl>
+                    <bibl style=""text-align: left; "">
+                        <hi rend=""bold"">Sperberg-McQueen, C.M.</hi>, 1991. Text in the electronic age: Texual study and textual study and text encoding, with examples from medieval texts. 
+                        <hi rend=""italic"">Literary and Linguistic Computing</hi>, 6(1): 34-46.
+                    </bibl>
+                    <bibl style=""text-align: left; "">
+                        <hi rend=""bold"">Tuzzi, A. and Cortelazzo, M.A.</hi>, 2018. What is Elena Ferrante? A comparative analysis of a secretive bestselling Italian writer. 
+                        <hi rend=""italic"">Digital Scholarship in the Humanities</hi>, 33(3): 685-702.
+                    </bibl>
+                    <bibl style=""text-align: left; "">
+                        <hi rend=""bold"">Van Zundert, J.J.</hi>, 2016. Screwmeneutics and hermenumericals: the computationality of hermeneutics. 
+                        <hi rend=""italic"">A companion to digital humanities</hi>. (pp. 331-347) Blackwell.
+                    </bibl>
+                </listBibl>
+            </div>
+        </back>
+    </text>
+
+",xml,This text is republished here with permission from the original rights holder.,,interpretation;literarary analysis;semantics,English,"contemporary;english;global;literary studies;meta-criticism (reflections on digital humanities and humanities computing);text encoding and markup language creation, deployment, and analysis"
+11948,2022 - Tokyo,Tokyo,Responding to Asian Diversity,2022-01-01T00:00:00Z,ADHO,ADHO,,Tokyo,,Japan,https://dh2022.adho.org/,The Linked Editorial Academic Framework: Creating an editorial environment for collaborative scholarship and publication,,Diane Katherine Jakacki;Susan Brown;James Cummings;Mihaela Ilovan;Carolyn Black,"paper, specified ""short paper""","<text xmlns=""http://www.tei-c.org/ns/1.0"" xml:lang=""en"">
+        <body>
+            <p style=""text-align: left;"">This short paper introduces LEAF (the Linked Editorial Academic Framework virtual research environment), an enhanced and expanded collaborative editorial platform that supports a variety of digital scholarly projects through a pipeline of integrated tools for collaborative production and publication of scholarly and documentary collections. Funded through the Canada Foundation for Innovation and the Andrew W. Mellon Foundation, LEAF aims to address the challenges that face many who undertake and maintain large-scale collaborative DH projects now: namely, the need to ensure that these projects can remain operational and available to editors and audiences over the long-haul. It is only by sharing physical, software, and human infrastructures across institutions that this can be accomplished. In so doing we can support scalability, interoperability, and preservation while allowing for dynamic, iterative, and collaborative editing, and therefore ensure that our materials, collections, and editions will remain viable and accessible. The LEAF team aims to do this by integrating best practices for text encoding, annotation, and metadata standards. This short paper will report on the development of LEAF and the functionalities that it will provide. </p>
+            <p style=""text-align: left;"">The implementation, and dissemination of LEAF is built upon a collaboration to extend the Canadian Writing Research Collaboratory (CWRC) built by the Universities of Alberta and Guelph (Susan Brown) with Bucknell University (Diane Jakacki), and Newcastle University (James Cummings) as founding partners. This work enhances CWRC’s functionality through collaborative software development that will ultimately support multiple instances of the LEAF platform in Canada, the US, and the UK. At Bucknell, this work will inform the Liberal Arts Based Digital Edition Publishing Cooperative and the Bucknell Digital Press, funded by an Andrew W. Mellon Digital Publishing Cooperative Implementation grant that will support an expanding portfolio of peer-reviewed digital editions and edition clusters. </p>
+            <p style=""text-align: left;"">
+                <hi style=""font-size:12pt"" xml:space=""preserve"">The LEAF platform combines hardware, software, and personnel. LEAF is being built on a solid foundation in terms of its data models, core functionality, and code management, so that it is positioned for extension and long-term sustainability. The platform is based on the Islandora 8 framework, which combines Drupal 8 with a Fedora 5 repository for long-term preservation. The LEAF repository will customize and enhance Islandora to enable digital humanities workflows and publication needs. Enhancements include an innovative web-based editing tool that allows users to employ TEI XML along with Web Annotation and IIIF standards-compatible Linked Open Data annotations that enhance discoverability and interoperability. </hi>
+            </p>
+            <p style=""text-align: left;"">
+                The founding LEAF institutions are collaborating to upgrade the existing CWRC environment and produce a fully modular platform that will also be hosted on Bucknell’s servers, further tested at Newcastle University, and offered as containerized open-source code freely available for download and installation by other institutions. In particular, LEAF will facilitate the production and publication of dynamic digital scholarly editions and collections, offering multilingual transcription, translation, and image markup. Entirely browser-based, its functionality includes an in-browser XML markup editor, XML rendering tools, built-in text and data visualization tools including the Voyant Tools suite and its Dynamic Table of Contexts Browser. Overall the LEAF platform will provide a sophisticated interface for digital editions in which the XML markup is leveraged for navigation and active reading, and enhanced with Linked Open Data.
+            </p>
+        </body>
+    </text>
+
+",xml,This text is republished here with permission from the original rights holder.,,collaborative publication;critical infrastructure;preservation,English,"15th-17th century;19th century;20th century;analysis;cultural studies;english;global;literary studies;public humanities collaborations and methods;scholarly editing and editions development, analysis, and methods"
