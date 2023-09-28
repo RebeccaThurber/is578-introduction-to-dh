@@ -1,0 +1,8 @@
+**Explanation of Dataset**
+
+I applied the following filters to the dh_conferences_works dataset:
+- the "full_text" column has been filtered to only include works related to Voyant.
+- the "language" column has been filtered to only include works in English.
+- the "topics" column has been filtered to  include works concerned with Literary Studies. 
+
+I also changed the "conference_year" data into date format. 
