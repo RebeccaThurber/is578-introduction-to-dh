@@ -1,12 +1,19 @@
 I decided to use this assignment as a headstart on my DH Workshop project by analyzing a corpus composed of three translations of Anton Chekhov’s short story “Rothschild’s Fiddle.” 
 In general & in summary I found Voyant Tools to be good for exploring my corpus, while WordCounter was more useful for extracting word frequency counts. 
-I found that I had better success with both tools when I worked with them in conjunction. 
-In order to do anything with the data I pulled from WordCounter, I needed to have a plan/question in mind. 
+I found that I had better success with both tools when I worked with them in conjunction. In order to do anything with the data I pulled from WordCounter, I needed to have a plan/question in mind. 
 The exploration I was able to do using Voyant Tools was able to help me formulate how I wanted to use the WordCounter data.
 
 
 Here was my process:
 
-
 First, I uploaded my corpus into Voyant Tools. 
 What was immediately apparent was how similar the texts in my corpus are (which makes sense given that they are three translations of the same text). 
+For instance, when I looked at the trajectories of high-frequency words across the three texts, the trends were nearly identical.
+
+
+What I decided would be most interesting to find in the texts were the moments of variance rather than the similarities. 
+
+I uploaded my three texts into WordCounter and exported the word frequency data. 
+I then combined the word lists & frequencies and then filtered out that dataset so that I had a dataset that only included the words and frequencies that were unique to a single translation (only occurred in 1 text). 
+
+I made the following visualizations using flouris for words that are unique to each translation: 
