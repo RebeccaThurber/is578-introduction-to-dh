@@ -5,8 +5,10 @@ I could not figure out how to upload data into Gephi-lite. It seemed like the fi
 Here is my full network visualization in Palladio:
 ![Palladio_Network](./Palladio_network.png)
 
-Here is my network visualization in Palladio focusing in on Hart Crane:
+Here is my network visualization in Palladio zooming in on Hart Crane:
 ![Hart_Crane_Network](./Palladio_network_Hart_Crane.png)
+
+Here is my network visualization in Palladio with Hart Crane as the "facet" (which I think is kind of like a filter?)
 
 
 It seems like you can more easily export visualizations and metrics from Network Navigator. I felt like I was not fully utilizing the functions in Palladio.
