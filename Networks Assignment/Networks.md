@@ -15,4 +15,5 @@ Here are a couple of visualizations from Network Navigator, focusing on Hart Cra
 ![Force_layout](./force_layout_visualization.png)
 ![Adjacency_matrix](./adjacency_matrix_visualization%20(1).png)
 
-I was also able to easily export metrics into a .csv file on Network Navigator: ![datefile](./Network%20Navigator.csv)
+I was also able to easily export metrics into a .csv file on Network Navigator: 
+![datefile](./Network%20Navigator.csv)
