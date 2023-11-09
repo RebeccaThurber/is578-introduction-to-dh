@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <h1>Voyant Tools with a corpus of 5 English Translations of "Rothschild's Fiddle"</h1>
+     
+<head>
+    <style>
+        .sidebar {
+            width: 50%; 
+            padding: 20px;
+            float: right;
+        }
+    </style>
+    <style>
+    .pinkheader{color:deeppink}
+    </style>
+</head>
+<body>
+    <div class="sidebar">
+        <h2 class="pinkheader">Extras!</h2>
+        <p>This page is one of a variety of assignments for my Intro DH class. You can see my other Intro DH assignments at
+            <a href="https://github.com/RebeccaThurber/is578-introduction-to-dh">my GitHub</a></p>
+    </div>
+
+    <div class="main-content">
+        <h4>The corpus contains texts by the following translators:</h4>
+        <p><ul>
+            <li>R.E.C Long</li>
+            <li>Marian Fell</li>
+            <li>Constance Garnett</li>
+            <li>Richard Pevear and Larissa Volokhonsky</li>
+            <li>Ann Gunin</li>
+
+            <iframe style='width: 100%; height: 800px;' src='https://voyant-tools.org/?panels=bubblelines%2Creader%2Cphrases%2Csummary%2Ccorpuscollocates&corpus=8a56b87b5e6abdd0cacbac1c0555e634'></iframe>
+        </ul></p>
+    </div>
+</body>
+
+</html>
